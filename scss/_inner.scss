@@ -2,6 +2,15 @@ body {
 	&.inner {
 		background-color: var(--white_off);
 
+		.intro-img {
+			width: 100%;
+
+			img {
+				max-width: 100%;
+				opacity: 0.08;
+			}
+		}
+
 		.home {
 			width: 100vw;
 			height: calc(100vh - 64px);
@@ -14,21 +23,51 @@ body {
 				z-index: 1;
 			}
 
-			.img {
-				img {
-					opacity: 0.1;
+			.secondary {
+				display: grid;
+				width: 100%;
+				gap: $spacing_seven;
+				grid-template-columns: repeat(3, 1fr);
+
+				ul {
+					display: flex;
+					gap: $spacing_two;
+					flex-wrap: wrap;
+
+					li {
+						padding: $spacing_three $spacing_six;
+						border: 1px dashed var(--black_jet);
+						border-radius: 64px;
+						margin: 0;
+					}
 				}
 			}
 
 			.more {
-				border: 1px dashed var(--black_jet);
-				padding: $spacing_two $spacing_four;
+				border: 2px solid var(--black_jet);
+				padding: $spacing_four $spacing_six;
 				border-radius: 64px;
 				width: fit-content;
-				position: absolute;
-				left: 50%;
-				top: 50%;
-				transform: rotate(90deg) translateY(100%);
+				height: fit-content;
+				transform: rotate(90deg) translateX(30%);
+				transition-duration: 400ms;
+				text-decoration: none;
+
+				&:hover {
+					text-decoration: none;
+					transform: rotate(90deg) translateX(30%) scale(1.08);
+				}
+			}
+		}
+
+		.about-img {
+			max-width: $breakpoint-md;
+			margin: $spacing_eight auto;
+
+			img {
+				width: 100%;
+				border-radius: 16px;
+				filter: grayscale(1);
 			}
 		}
 
@@ -75,14 +114,6 @@ body {
 				}
 			}
 
-			.rec-title {
-				color: var(--black_jet);
-				font-weight: 600;
-				font-size: 32px;
-				line-height: 56px;
-				text-align: center;
-			}
-
 			li {
 				margin: 8px 0;
 			}
@@ -100,36 +131,6 @@ body {
 				margin: 0 auto;
 				max-width: 1280px;
 				padding: $spacing_seven $spacing_six;
-
-				.ul-f {
-					img {
-						padding-bottom: 16px;
-					}
-
-					border: 1px solid var(--grey_light);
-					padding: 16px;
-					margin: 8px;
-					border-radius: 8px;
-
-					li {
-						padding: 6px 0;
-					}
-
-					.hlght {
-						color: var(--grey_med);
-						margin-bottom: 16px;
-						line-height: 40px;
-					}
-
-					&.h {
-						display: flex;
-
-						img {
-							padding-bottom: 0;
-							padding-right: 16px;
-						}
-					}
-				}
 
 				.ul-s {
 					display: flex;

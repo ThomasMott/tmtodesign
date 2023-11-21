@@ -51,17 +51,19 @@
 				line-height: 11px;
 				font-size: 11px;
 				color: var(--black_jet);
-				border: 2px solid var(--black_jet);
+				border: 1px dashed var(--black_jet);
 				text-transform: capitalize;
 			}
 		}
 
 		.cards {
 			display: grid;
-			gap: $spacing_five;
+			gap: $spacing_eight;
 			margin: 16px 0;
 			transition: all 0.4s ease;
-			overflow: hidden;
+			height: 500px;
+			grid-column-gap: $spacing_nine;
+			grid-row-gap: $spacing_four;
 
 			@media (min-width: $breakpoint-md) {
 				grid-template-columns: repeat(2, 1fr);
@@ -71,31 +73,31 @@
 				text-decoration: none;
 			}
 
+			&:nth-of-type(odd) {
+				.card-img {
+					order: -1;
+				}
+			}
+
 			.card-img {
 				width: 100%;
-				height: 320px;
+				height: 560px;
 				overflow: hidden;
 
 				img {
 					border-style: none;
 					width: 100%;
 					object-fit: cover;
-					height: 320px;
+					height: 560px;
+					border-radius: 16px;
 				}
 			}
 
 			.card-txt {
-				border-top: 1px solid var(--black_jet);
-				border-bottom: 1px solid var(--black_jet);
-				padding: $spacing_two 0;
+				padding: $spacing_ten $spacing_eight;
 
 				.main-txt {
-					display: flex;
 					height: 100%;
-					flex-direction: column;
-					justify-content: space-between;
-					overflow: hidden;
-					position: relative;
 					box-sizing: border-box;
 
 					.d {
@@ -106,27 +108,26 @@
 						text-overflow: ellipsis;
 						font-size: 16px;
 						color: var(--black_jet);
+						margin-bottom: $spacing_five;
 					}
-				}
 
-				.s {
-					margin-top: 16px;
-					font-size: 13px;
-					line-height: 20px;
-					overflow: hidden;
-					height: unset;
-					display: none;
+					.main-txt-links {
+						display: flex;
+						gap: $spacing_three;
+						flex-wrap: wrap;
 
-					span {
-						color: var(--orange);
-						font-weight: bold;
+						a {
+							border: 2px solid var(--black_jet);
+							padding: $spacing_two $spacing_four;
+							border-radius: 64px;
+						}
 					}
 				}
 			}
 
 			h1 {
 				font-weight: 600;
-				margin-top: 0;
+				margin: 0;
 				overflow: hidden;
 				display: -webkit-box;
 				-webkit-line-clamp: 2;
@@ -138,31 +139,12 @@
 				}
 			}
 
-			p {
-				padding: 0;
-				color: var(--grey_med);
-				font-size: 15px;
-				line-height: 25px;
-			}
-
 			a {
 				padding: 0;
+				margin: 0;
 
 				&:hover {
 					text-decoration: none;
-				}
-			}
-
-			&:hover,
-			:focus {
-				// transform: translate3D(-12px,12px,0) scale(1.02);
-				// box-shadow: 4px -4px var(--yellow), 8px -8px var(--orange), 12px -12px $voilet_blue;
-				transform: scale(1.02);
-
-				h3 {
-					span {
-						background-color: var(--yellow);
-					}
 				}
 			}
 		}

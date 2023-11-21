@@ -2,33 +2,48 @@
 title: Thomas Mott | Ux/ UI consultancy.
 description: The visionary design studio which creates flawless solutions to solve challenges like no other.
 layout: layouts/base.njk
+js: index
 pagination:
   data: collections.post
   size: 4
   alias: posts
   reverse: true
 ---
+<div id="background" class="background"></div>
 <section class="home">
 	<div class="grid">
 		<div class="intro">
 			<h1>Thomas</h1>
 			<h2>Mott.</h2>
-			<h3><strong>Specialist user-experiece / user-interface designer and front-end developer.</strong></h3>
-			<p>WEB &middot; WIREFRAMING &middot; USER-EXPERIENCE &middot; USER-INTERFACE DESIGN &middot; ILLUSTRATION &middot; DESIGN PSYCHOLOGY &middot; ACCESSIBILITY.
+			<div class="secondary">
+				<h3><strong>Specialist user-experiece / user-interface designer and front-end developer.</strong></h3>
+				<ul>
+					<li>Web</li>
+					<li>Wireframing</li>
+					<li>User-Experience</li>
+					<li>Product Design</li>
+					<li>User Interface Design</li>
+					<li>Illustration</li>
+					<li>Accessibility</li>
+				</ul>
+				<a class="more" href="/#about">Read more &#x276F;</a>
+			</div>
 		</div>
-		<p class="more">Read more &#x276F;</p>
-		<div class="img">
+		<div class="intro-img">
 			<img src="./static/t1.png" />
 		</div>
 	</div>
 </section>
 <section class="bg">
-	<div class="grid">
+	<div class="grid" id="about">
+		<div class="about-img">
+			<img src="./static/me.jpg" />
+		</div>
 		<div class="tldr-about">
 			<div class="tldr-inner">
 				<h2>TL;DR.</h2>
-				<p>I'm a <strong>user experience</strong> / <strong>user interface</strong> specialist, and <strong>front-end developer</strong>. I occasionally make illustrations and write about design.</p>
-				<p>You can <a href="mailto:thomasnmott1997@gmail.com">hire me</a>.</p>
+				<p>I'm a <strong>user experience</strong> / <strong>user interface</strong> specialist, and <strong>front-end developer</strong>. I am also available for illustration.</p>
+				<p><a href="mailto:thomasnmott1997@gmail.com">Get in touch</a>.</p>
 			</div>
 		</div>
 		<div class="details">

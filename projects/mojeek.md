@@ -1,9 +1,9 @@
 ---
 title: Mojeek
 name: mojeek
-tldr: add soon
+tldr: I spearheaded a comprehensive and meticulous process that spanned over two years.
 time: 4 min
-image: /static/images/blog/mojeek/journey.webp
+image: /static/images/projects/mojeek/mj-1.jpg
 tags: ["post", "design", "psychology"]
 categories: ["design", "psychology"]
 date: 2023-11-07

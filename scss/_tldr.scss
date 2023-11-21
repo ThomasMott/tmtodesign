@@ -7,6 +7,7 @@
 	z-index: 1;
 
 	.tldr-inner {
+		margin: $spacing_eight 0;
 		box-shadow: var(--black_dusty) 8px 8px 0px 0px;
 		border: 2px solid var(--black_dusty);
 		padding: $spacing_five;
@@ -20,7 +21,7 @@
 	@media (min-width: 992px) {
 		width: 25rem;
 		height: 0;
-		top: 16rem;
+		top: 20rem;
 		left: 0;
 		position: sticky;
 	}
