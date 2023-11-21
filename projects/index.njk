@@ -1,0 +1,14 @@
+---
+title: FoxGibbon | Latest posts for design news &amp; tutorials.
+description: FoxGibbon is your source for design news &amp; tutorials. Whether professional or enthusiast, it is a place to find information, source inspiration &amp; seek help.
+layout: layouts/base.njk
+pagination:
+    data: collections.post
+    size: 16
+    alias: posts
+    reverse: true
+---
+
+{% include "postsTitle.njk" %}
+{% include "posts.njk" %}
+{% include "pagination.njk" %}

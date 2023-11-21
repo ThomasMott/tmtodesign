@@ -1,0 +1,109 @@
+@font-face {
+	font-family: Rubik;
+	src: url(../static/Rubik-SemiBold.ttf);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Rubik", serif;
+	color: var(--black_jet);
+	overflow-wrap: break-word;
+	font-weight: 800;
+
+	span {
+		font-family: "Rubik", serif;
+		background-color: var(--yellow);
+		color: var(--black_dusty);
+	}
+
+	a {
+		padding: 0 !important;
+	}
+}
+
+h1 {
+	font-size: 64px;
+	line-height: 76px;
+	margin: $spacing_six 0 $spacing_four 0;
+	letter-spacing: 0.01em;
+	max-width: $breakpoint-sm;
+
+	&.shadow {
+		text-shadow: 3px 3px var(--yellow);
+	}
+}
+
+h2 {
+	font-size: 40px;
+	line-height: 48px;
+	margin: $spacing_five 0 $spacing_three 0;
+	letter-spacing: 0.01em;
+}
+
+h3 {
+	font-size: 32px;
+	line-height: 40px;
+	margin: $spacing_four 0 $spacing_two 0;
+	letter-spacing: 0.01em;
+}
+
+h3 {
+	font-size: 24px;
+	line-height: 32px;
+	margin: $spacing_three 0 $spacing_one 0;
+	letter-spacing: 0.01em;
+}
+
+p,
+li {
+	font-size: 17px;
+	line-height: 28px;
+	color: var(--black_jet);
+	margin: $spacing_two 0;
+	letter-spacing: 0.2px;
+	max-width: 640px;
+
+	&.top {
+		font-family: "Montserrat", sans-serif;
+		font-size: 18px;
+
+		em {
+			font-family: "Montserrat", sans-serif;
+		}
+	}
+}
+
+a {
+	position: relative;
+	font-size: 17px;
+	line-height: 28px;
+	color: var(--black_dusty);
+
+	&:hover {
+		color: var(--orange);
+		text-decoration: underline;
+	}
+}
+
+.intro {
+	max-width: 400px;
+
+	h1 {
+		font-size: 100px;
+		line-height: 104px;
+		padding: 0;
+		margin: 0;
+	}
+
+	h2 {
+		font-size: 148px;
+		line-height: 154px;
+		padding: 0;
+		margin: 0;
+		margin-bottom: $spacing_six;
+	}
+}

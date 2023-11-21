@@ -1,0 +1,16 @@
+---
+layout: layouts/base.njk
+permalink: /categories/{{ category.permalinkScheme }}
+pagination:
+    data: collections.categoriesByPage
+    size: 1
+    alias: category
+---
+
+{% include "postsTitle.njk" %}
+{% include "cat-posts.njk" %}
+<section class="bg">
+	<div class="pagination:container">
+		{% pagination category %}
+	</div>
+</section>

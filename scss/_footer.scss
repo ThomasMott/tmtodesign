@@ -1,0 +1,133 @@
+/* footer */
+.footers-theme {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	align-items: center;
+	background-color: var(--white);
+
+	.footers-inner {
+		display: flex;
+		padding: $spacing_seven $spacing_six;
+		gap: $spacing_five;
+		max-width: 1092px;
+		width: 100%;
+		box-sizing: border-box;
+		align-items: center;
+
+		.inner-span {
+			display: flex;
+		}
+
+		@media (min-width: 1280px) {
+			margin: 0 auto;
+			max-width: 1280px;
+		}
+	}
+
+	.footers-theme-item {
+		padding: $spacing_two $spacing_five;
+		border: 2px solid var(--black_dusty);
+		border-radius: 64px;
+		transition: 400ms;
+
+		&:hover {
+			cursor: pointer;
+			transform: scale(1.08);
+		}
+	}
+}
+
+.footers-contact {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	align-items: center;
+	border-bottom: 1px solid var(--black_dusty);
+	border-top: 1px solid var(--black_dusty);
+	background-color: var(--white);
+
+	.footers-inner {
+		padding: $spacing_seven $spacing_six;
+		justify-content: center;
+		max-width: 1092px;
+		width: 100%;
+		box-sizing: border-box;
+		justify-content: space-between;
+
+		p {
+			font-size: 20px;
+			margin-top: 0;
+			margin-bottom: $spacing_four;
+		}
+
+		@media (min-width: 1280px) {
+			margin: 0 auto;
+			max-width: 1280px;
+		}
+	}
+}
+
+.footers-top {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	align-items: center;
+
+	.footers-inner {
+		padding: $spacing_seven $spacing_six;
+		justify-content: center;
+		max-width: 1092px;
+		width: 100%;
+		box-sizing: border-box;
+		justify-content: space-between;
+
+		a,
+		p {
+			font-size: 16px;
+			padding: 0;
+			display: block;
+		}
+
+		@media (min-width: 768px) {
+			display: flex;
+			gap: $spacing_four;
+			align-items: center;
+			padding: 24px;
+			justify-content: space-between;
+			flex-wrap: nowrap;
+		}
+
+		@media (min-width: 1280px) {
+			margin: 0 auto;
+			max-width: 1280px;
+		}
+	}
+
+	.footers-inner-social {
+		display: flex;
+		gap: $spacing_two;
+
+		a {
+			line-height: 1;
+		}
+	}
+
+	a {
+		margin-bottom: 0;
+	}
+
+	.soc-svg {
+		opacity: 1;
+		text-decoration: none;
+
+		svg {
+			color: var(--black_dusty);
+			margin-right: $spacing_two;
+		}
+
+		&:hover {
+			opacity: 0.8;
+		}
+	}
+}

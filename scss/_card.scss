@@ -1,0 +1,170 @@
+.grid {
+	.blog-card {
+		@media (min-width: $breakpoint-md) {
+			grid-template-columns: repeat(3, 1fr);
+
+			.main {
+				&.cards {
+					transition-duration: 200ms;
+					grid-column-start: 1;
+					grid-column-end: 4;
+					grid-row-start: 1;
+					grid-row-end: 3;
+
+					.card-img {
+						height: 320px;
+						width: 60%;
+						float: left;
+
+						img {
+							height: 100%;
+						}
+					}
+
+					.s {
+						display: block !important;
+					}
+
+					.card-txt {
+						padding-left: 48px;
+						width: 40%;
+						border-bottom: none;
+						float: right;
+
+						.main-txt {
+							text-align: left;
+						}
+					}
+				}
+			}
+		}
+
+		ul {
+			padding: 0;
+			list-style: none;
+			display: flex;
+			gap: $spacing_two;
+
+			li {
+				padding: $spacing_one $spacing_two;
+				border-radius: 40px;
+				line-height: 11px;
+				font-size: 11px;
+				color: var(--black_jet);
+				border: 2px solid var(--black_jet);
+				text-transform: capitalize;
+			}
+		}
+
+		.cards {
+			display: grid;
+			gap: $spacing_five;
+			margin: 16px 0;
+			transition: all 0.4s ease;
+			overflow: hidden;
+
+			@media (min-width: $breakpoint-md) {
+				grid-template-columns: repeat(2, 1fr);
+			}
+
+			a {
+				text-decoration: none;
+			}
+
+			.card-img {
+				width: 100%;
+				height: 320px;
+				overflow: hidden;
+
+				img {
+					border-style: none;
+					width: 100%;
+					object-fit: cover;
+					height: 320px;
+				}
+			}
+
+			.card-txt {
+				border-top: 1px solid var(--black_jet);
+				border-bottom: 1px solid var(--black_jet);
+				padding: $spacing_two 0;
+
+				.main-txt {
+					display: flex;
+					height: 100%;
+					flex-direction: column;
+					justify-content: space-between;
+					overflow: hidden;
+					position: relative;
+					box-sizing: border-box;
+
+					.d {
+						overflow: hidden;
+						display: -webkit-box;
+						-webkit-line-clamp: 2;
+						-webkit-box-orient: vertical;
+						text-overflow: ellipsis;
+						font-size: 16px;
+						color: var(--black_jet);
+					}
+				}
+
+				.s {
+					margin-top: 16px;
+					font-size: 13px;
+					line-height: 20px;
+					overflow: hidden;
+					height: unset;
+					display: none;
+
+					span {
+						color: var(--orange);
+						font-weight: bold;
+					}
+				}
+			}
+
+			h1 {
+				font-weight: 600;
+				margin-top: 0;
+				overflow: hidden;
+				display: -webkit-box;
+				-webkit-line-clamp: 2;
+				-webkit-box-orient: vertical;
+				text-overflow: ellipsis;
+
+				span {
+					background-color: unset;
+				}
+			}
+
+			p {
+				padding: 0;
+				color: var(--grey_med);
+				font-size: 15px;
+				line-height: 25px;
+			}
+
+			a {
+				padding: 0;
+
+				&:hover {
+					text-decoration: none;
+				}
+			}
+
+			&:hover,
+			:focus {
+				// transform: translate3D(-12px,12px,0) scale(1.02);
+				// box-shadow: 4px -4px var(--yellow), 8px -8px var(--orange), 12px -12px $voilet_blue;
+				transform: scale(1.02);
+
+				h3 {
+					span {
+						background-color: var(--yellow);
+					}
+				}
+			}
+		}
+	}
+}

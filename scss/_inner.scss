@@ -1,0 +1,161 @@
+body {
+	&.inner {
+		background-color: var(--white_off);
+
+		.home {
+			width: 100vw;
+			height: calc(100vh - 64px);
+
+			.intro {
+				position: absolute;
+				top: 50%;
+				transform: translateY(-50%);
+				margin-bottom: $spacing_seven;
+				z-index: 1;
+			}
+
+			.img {
+				img {
+					opacity: 0.1;
+				}
+			}
+
+			.more {
+				border: 1px dashed var(--black_jet);
+				padding: $spacing_two $spacing_four;
+				border-radius: 64px;
+				width: fit-content;
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				transform: rotate(90deg) translateY(100%);
+			}
+		}
+
+		section {
+			display: block;
+
+			&.bg {
+				background-color: var(--white);
+
+				.grid {
+					margin-bottom: 0;
+				}
+			}
+
+			.time {
+				font-size: 16px;
+				color: var(--grey_med);
+
+				span {
+					color: var(--orange);
+					font-weight: bold;
+				}
+			}
+
+			.title {
+				color: var(--black_jet);
+				font-weight: bold;
+				margin-top: 24px;
+				word-wrap: break-word;
+			}
+
+			.sec-title {
+				color: var(--orange);
+				font-weight: 600;
+				font-size: 40px;
+				line-height: 64px;
+			}
+
+			.sec-txt {
+				p {
+					@media (min-width: 992px) {
+						padding-right: 24px;
+					}
+				}
+			}
+
+			.rec-title {
+				color: var(--black_jet);
+				font-weight: 600;
+				font-size: 32px;
+				line-height: 56px;
+				text-align: center;
+			}
+
+			li {
+				margin: 8px 0;
+			}
+
+			p,
+			li {
+				color: var(--grey_med);
+			}
+
+			ul {
+				list-style: none;
+			}
+
+			.grid {
+				margin: 0 auto;
+				max-width: 1280px;
+				padding: $spacing_seven $spacing_six;
+
+				.ul-f {
+					img {
+						padding-bottom: 16px;
+					}
+
+					border: 1px solid var(--grey_light);
+					padding: 16px;
+					margin: 8px;
+					border-radius: 8px;
+
+					li {
+						padding: 6px 0;
+					}
+
+					.hlght {
+						color: var(--grey_med);
+						margin-bottom: 16px;
+						line-height: 40px;
+					}
+
+					&.h {
+						display: flex;
+
+						img {
+							padding-bottom: 0;
+							padding-right: 16px;
+						}
+					}
+				}
+
+				.ul-s {
+					display: flex;
+					gap: $spacing_three;
+					flex-wrap: wrap;
+
+					li {
+						border: 2px solid var(--black_jet);
+						padding: 0 $spacing_three;
+						border-radius: 64px;
+						list-style: none;
+						color: var(--black_jet);
+						text-transform: capitalize;
+						transition: box-shadow 400ms;
+
+						a {
+							font-size: 16px;
+							text-decoration: none;
+						}
+
+						&:hover {
+							transform: rotate(2deg);
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,39 @@
+.fox {
+	transform: rotate(180deg);
+	right: 20%;
+
+	img {
+		height: 120px;
+	}
+}
+
+.gibbon {
+	right: calc(20% - 88px);
+
+	img {
+		height: 120px;
+	}
+}
+
+.me {
+	max-width: 100%;
+}
+
+.fox,
+.gibbon {
+	display: none;
+	top: 16px;
+	position: absolute;
+	transition: top 1.6s;
+
+	&:hover,
+	&:focus-within {
+		filter: none;
+		cursor: pointer;
+		top: 56px;
+	}
+
+	@media (min-width: $breakpoint-md) {
+		display: block;
+	}
+}

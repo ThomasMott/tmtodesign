@@ -1,0 +1,25 @@
+{
+  "name": "foxgibbon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "gulp sass",
+    "scss-local": "node-sass --watch scss -o css"
+  },
+  "author": "tom",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^5.0.0"
+  },
+  "dependencies": {
+    "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "eleventy-plugin-dynamic-categories": "^0.1.5",
+    "luxon": "^3.0.1",
+    "node-sass": "^8.0.0"
+  }
+}

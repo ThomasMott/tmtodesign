@@ -1,0 +1,15 @@
+<section class="bg">
+		<div class="pagination:container">
+			{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}"><div class="pagination:number arrow"><span>&#8249;</span></div></a>
+			{% else %}<div class="pagination:number arrow disabled"><span>&#8249;</span></div>
+			{% endif %}
+			{%- for pageEntry in pagination.pages %}
+				<a href="{{ pagination.hrefs[ loop.index0 ] }}"{% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page"{% endif %}><div class="pagination:number">
+					{{ loop.index }}
+				</div></a>
+			{%- endfor %}
+			{% if pagination.href.next %}<a href="{{ pagination.href.next }}"><div class="pagination:number arrow"><span>&#8250;</span></div></a>
+			{% else %}<div class="pagination:number arrow disabled"><span>&#8250;</span></div>
+			{% endif %}
+		</div>
+</section>

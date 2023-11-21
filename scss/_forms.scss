@@ -1,0 +1,82 @@
+form {
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+		rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+	border: 1px solid var(--grey_light);
+	border-radius: 8px;
+	margin: 8px;
+	transition: all 0.4s ease;
+	padding: 24px;
+
+	&:hover {
+		box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+			rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+		transform: translate3D(0, -1px, 0) scale(1.02);
+	}
+
+	@media (min-width: 640px) {
+		border-radius: 24px;
+		margin: 0;
+	}
+
+	label,
+	input,
+	textarea {
+		width: 100%;
+	}
+
+	label {
+		font-size: 16px;
+		font-weight: 400;
+	}
+
+	input[type="email"],
+	input[type="search"],
+	input[type="text"],
+	input[type="date"],
+	input[type="time"],
+	input[type="number"],
+	input[type="tel"],
+	input[type="url"],
+	input[type="password"],
+	textarea,
+	select {
+		height: 48px;
+		margin: 8px 0 16px 0;
+		border: 1px solid var(--grey_light);
+		background-color: var(--white_off);
+		font-size: 16px;
+		border-radius: 8px;
+		padding: 16px;
+
+		&:hover {
+			background-color: var(--grey_med);
+			border: 1px solid var(--grey_light);
+		}
+
+		@media (min-width: 640px) {
+			margin: 8px 0 32px 0;
+		}
+	}
+
+	textarea {
+		resize: vertical;
+		height: 120px;
+	}
+}
+
+.button {
+	padding: $spacing_two $spacing_seven;
+	border: 2px solid var(--black_dusty);
+	border-radius: 64px;
+	transition: 400ms;
+	text-decoration: none;
+	display: block;
+	width: fit-content;
+	transition-duration: 400ms;
+
+	&:hover {
+		text-decoration: none;
+		color: var(--black_dusty);
+		transform: scale(1.08);
+	}
+}

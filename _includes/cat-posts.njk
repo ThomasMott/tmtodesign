@@ -1,0 +1,57 @@
+<section class="bg">
+	<div class="grid">
+		<div class="row blog-card">
+		{% for post in category.posts %}
+			{% if category.posts[0].data.title == post.data.title %}
+				<article class="cards main">
+					<a href="/projects/{{ post.data.name }}" title="{{ post.data.title }}">
+						<div class="card-img">
+							<img src="{{ post.data.image }}">
+						</div>
+						<div class="card-txt">
+							<div class="main-txt">
+								<p class="s">{{ post.data.date | postDate }} <span>&middot;</span> {{ post.data.time }}</p>
+								<ul class="cat">
+									{% for tag in post.data.tags %}
+										{% if tag !== 'post' %}
+											{% if tag !== 'ep' %}
+												<li>{{ tag }}</li>
+											{% endif %}
+										{% endif %}
+									{% endfor %}
+								</ul>
+								<h3><span>{{ post.data.title }}</span></h3>
+								<p class="d">{{ post.data.tldr }}</p>
+							</div>
+						</div>
+					</a>
+				</article>
+			{% endif %}
+			{% if category.posts[0].data.title !== post.data.title %}
+				<article class="cards">
+					<a href="/projects/{{ post.data.name }}" title="{{ post.data.title }}">
+						<div class="card-img">
+							<img src="{{ post.data.image }}">
+						</div>
+						<div class="card-txt">
+							<div class="main-txt">
+								<ul class="cat">
+									{% for tag in post.data.tags %}
+										{% if tag !== 'post' %}
+											{% if tag !== 'ep' %}
+												<li>{{ tag }}</li>
+											{% endif %}
+										{% endif %}
+									{% endfor %}
+								</ul>
+								<h3><span>{{ post.data.title }}</span></h3>
+								<p class="d">{{ post.data.tldr }}</p>
+							</div>
+						</div>
+					</a>
+				</article>
+			{% endif %}
+		{% endfor %}
+		</div>
+	</div>
+</section>

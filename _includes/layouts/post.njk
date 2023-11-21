@@ -1,0 +1,72 @@
+---
+layout: layouts/base.njk
+js: read
+---
+
+<section>
+	<div class="grid">
+		<div class="top-info">
+			<p class="time">{{ time }} <span>&middot</span> {{ date | postDate }}</p>
+			<ul class="ul-s">
+				{% for tag in tags %}
+					{% if tag !== 'post' %}
+						{% if tag !== 'ep' %}
+							<li><a href="/categories/{{tag}}/">{{tag}}</a></li>
+						{% endif %}
+					{% endif %}
+				{% endfor %}
+			</ul>
+			<h1 class="title"><span>{{ title }}</span></h1>
+			{% if tldr %}
+				<div class="tldr">
+					<p>{{ tldr }}</p>
+				</div>
+			{% endif %}
+			<div class="float-container right">
+				{% if related %}
+				<div class="float">
+					<h4>Related Links</h4>
+					<ul>
+					{% for link in related %}
+					<li>{{ link }}</li>
+					{% endfor %}
+					</ul>
+				</div>
+				{% endif %}
+			</div>
+			<div>
+				<img src="{{ image }}">
+			</div>
+		</div>
+		<div class="float-container left">
+			<div class="soc-float">
+				<a href="https://twitter.com/share?url=https://foxgibbon.com/post/{{ name }}"><img src="/static/images/twitter.svg"></a>
+				<a href="https://reddit.com/submit?url=https://foxgibbon.com/post/{{ name }}&title={{ name }}"><img src="/static/images/reddit.svg"></a>
+				<a href="https://www.linkedin.com/sharing/share-offsite/?url=https://foxgibbon.com/post/{{ name }}"><img src="/static/images/linkedin.svg"></a>
+			</div>
+			{% if thoughts %}
+			<div class="float">
+				<h4>Thoughts</h4>
+				<p>{{ thoughts }}</p>
+			</div>
+			{% endif %}
+		</div>
+		<div class="grid">
+			<article class="case">
+				{{ content | safe }}
+				{% if refs %}
+				<br>
+				<h4>References</h4>
+				<ul>
+				{% for link in refs %}
+				<li>{{ link }}</li>
+				{% endfor %}
+				</ul>
+				{% endif %}
+			</article>
+		</div>
+	</div>
+</section>
+<div id="reading-progress"><div class="reading-progress-container"><div id="reading-progress-fill"></div></div></div>
+{% set posts = collections[tags[1]] | related(page.url, 6671) %}
+{% include "posts-related.njk" %}

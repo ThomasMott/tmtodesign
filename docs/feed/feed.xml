@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title></title>
+  <subtitle>FoxGibbon is your source for design news &amp; tutorials. Whether professional or enthusiast, it is a place to find information, source inspiration &amp; seek help.</subtitle>
+  <link href="https://foxgibbon.com/feed/feed.xml" rel="self"/>
+  <link href=""/>
+  <updated>2023-11-07T00:00:00Z</updated>
+  <id></id>
+  <author>
+    <name></name>
+    <email></email>
+  </author>
+  
+  <entry>
+    <title>Mojeek</title>
+    <link href="/projects/mojeek/"/>
+    <updated>2023-11-07T00:00:00Z</updated>
+    <id>/projects/mojeek/</id>
+    <content type="html">&lt;p&gt;Mojers&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>FoxGibbon</title>
+    <link href="/projects/foxgibbon/"/>
+    <updated>2023-11-07T00:00:00Z</updated>
+    <id>/projects/foxgibbon/</id>
+    <content type="html">&lt;p&gt;foxgibb&lt;/p&gt;
+</content>
+  </entry>
+</feed>

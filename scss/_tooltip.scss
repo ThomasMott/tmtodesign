@@ -1,0 +1,46 @@
+$tooltip_margin: 2px;
+$tooltip_triangle: 4px;
+
+[data-tooltip][aria-label] {
+	position: relative;
+
+	&::before {
+		content: attr(aria-label);
+		pointer-events: none;
+		white-space: pre;
+		position: absolute;
+		color: var(--black_jet);
+		background: var(--white);
+		padding: 4px 16px;
+		border-radius: 24px;
+		visibility: hidden;
+		font-size: 13px;
+		z-index: 999;
+	}
+
+	&:hover {
+		&::before,
+		&::after {
+			visibility: visible;
+		}
+	}
+}
+
+[data-tooltip^="down"][aria-label] {
+	&::before {
+		top: 100%;
+		right: 50%;
+		transform: translateX(50%);
+	}
+
+	&::after {
+		border-bottom-width: $tooltip_triangle;
+		border-right-width: $tooltip_triangle;
+		border-right-color: transparent !important;
+		border-left-width: $tooltip_triangle;
+		border-left-color: transparent !important;
+		top: calc(100% + #{$tooltip_margin} - #{$tooltip_triangle});
+		right: 50%;
+		transform: translateX(50%);
+	}
+}
