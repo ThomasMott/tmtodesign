@@ -3,8 +3,9 @@ window.onload = myFunction;
 // runs on load
 function myFunction() {
 	setThemeOnLoad();
-	init();
-	console.log("opening");
+	if (typeof init == "function") {
+		init();
+	}
 	document
 		.getElementById("footer-theme")
 		.addEventListener("click", changeTheme);

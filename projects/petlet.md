@@ -3,7 +3,7 @@ title: Petlet
 name: petlet
 tldr: I spearheaded a comprehensive and meticulous process that spanned over two years.
 time: 6 min
-image: /static/images/projects/petlet/fg.png
+image: /static/images/projects/petlet/pl.jpg
 tags: ["post", "design", "psychology"]
 categories: ["design", "psychology"]
 date: 2023-11-07
