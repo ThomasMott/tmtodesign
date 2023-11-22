@@ -38,19 +38,6 @@ js: read
 				<img src="{{ image }}">
 			</div>
 		</div>
-		<div class="float-container left">
-			<div class="soc-float">
-				<a href="https://twitter.com/share?url=https://foxgibbon.com/post/{{ name }}"><img src="/static/images/twitter.svg"></a>
-				<a href="https://reddit.com/submit?url=https://foxgibbon.com/post/{{ name }}&title={{ name }}"><img src="/static/images/reddit.svg"></a>
-				<a href="https://www.linkedin.com/sharing/share-offsite/?url=https://foxgibbon.com/post/{{ name }}"><img src="/static/images/linkedin.svg"></a>
-			</div>
-			{% if thoughts %}
-			<div class="float">
-				<h4>Thoughts</h4>
-				<p>{{ thoughts }}</p>
-			</div>
-			{% endif %}
-		</div>
 		<div class="grid">
 			<article class="case">
 				{{ content | safe }}

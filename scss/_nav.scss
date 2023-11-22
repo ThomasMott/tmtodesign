@@ -37,13 +37,41 @@
 
 		.nav-links {
 			list-style: none;
-			display: flex;
+			display: none;
 			gap: $spacing_two;
 
 			li {
 				&:hover {
 					text-decoration: none;
 					transform: rotate(2deg);
+				}
+			}
+		}
+
+		@media (min-width: $breakpoint-lg) {
+			.nav-links {
+				display: flex;
+			}
+
+			.nav-logo,
+			.nav-git {
+				width: 250px;
+			}
+		}
+
+		.nav-btn {
+			display: flex;
+			align-items: center;
+			gap: $spacing_three;
+
+			.nav-img {
+				height: 24px;
+				width: 24px;
+				border-radius: 64px;
+				overflow: hidden;
+
+				img {
+					height: 24px;
 				}
 			}
 		}
@@ -56,15 +84,15 @@
 	}
 }
 
-.nav-lower {
-	background-image: url(../static/images/dropdown.png);
-	height: 8px;
-	width: 100%;
-	background-color: transparent;
-	background-repeat: repeat-x;
-	background-size: 80px 8px;
-	background-position: center center;
-	position: absolute;
-	top: 64px;
-	z-index: 8;
-}
+// .nav-lower {
+// 	background-image: url(../static/images/dropdown.png);
+// 	height: 8px;
+// 	width: 100%;
+// 	background-color: transparent;
+// 	background-repeat: repeat-x;
+// 	background-size: 80px 8px;
+// 	background-position: center center;
+// 	position: absolute;
+// 	top: 64px;
+// 	z-index: 8;
+// }

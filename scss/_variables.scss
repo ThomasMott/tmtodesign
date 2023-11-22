@@ -6,8 +6,12 @@ $breakpoint-lg: 1300px;
 $breakpoint-xl: 1760px;
 $breakpoint-lx: 2200px;
 
+/*filter*/
+
 /*colours*/
 :root {
+	--filter: none;
+
 	#default {
 		--black_dusty: #455385;
 		--black_jet: #5b6485;
@@ -20,14 +24,16 @@ $breakpoint-lx: 2200px;
 	}
 
 	#dark {
-		--black_dusty: #fffdfa;
+		--black_dusty: #e6e6e6;
 		--black_jet: #f6f0e2;
-		--grey_med: #fffdfa;
+		--grey_med: #bcbcbc;
 		--grey_light: #808080;
 		--white_off: #1a1a1a;
-		--white: #202020;
+		--white: #1f1f1f;
 		--orange: #19c3fb;
 		--yellow: #fcebb224;
+
+		--filter: brightness(10);
 	}
 
 	#candy {
@@ -83,5 +89,3 @@ $spacing_eight: 64px;
 $spacing_nine: 96px;
 $spacing_ten: 128px;
 //defined further in spacing.scss
-
-$filter: none;

@@ -9,7 +9,8 @@
 	.footers-inner {
 		display: flex;
 		padding: $spacing_seven $spacing_six;
-		gap: $spacing_five;
+		flex-wrap: wrap;
+		gap: $spacing_three;
 		max-width: 1092px;
 		width: 100%;
 		box-sizing: border-box;

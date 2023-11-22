@@ -7,8 +7,13 @@ body {
 
 			img {
 				max-width: 100%;
-				opacity: 0.08;
+				opacity: 0.12;
+				filter: var(--filter);
 			}
+		}
+
+		.home-intro {
+			overflow: hidden;
 		}
 
 		.home {
@@ -25,9 +30,13 @@ body {
 
 			.secondary {
 				display: grid;
-				width: 100%;
+				max-width: $breakpoint-xs;
 				gap: $spacing_seven;
-				grid-template-columns: repeat(3, 1fr);
+
+				@media (min-width: $breakpoint-lg) {
+					max-width: 100%;
+					grid-template-columns: repeat(3, 1fr);
+				}
 
 				ul {
 					display: flex;
@@ -49,13 +58,14 @@ body {
 				border-radius: 64px;
 				width: fit-content;
 				height: fit-content;
-				transform: rotate(90deg) translateX(30%);
+				transform: rotate(90deg) translateX(30%) translateY(80%);
 				transition-duration: 400ms;
 				text-decoration: none;
 
 				&:hover {
 					text-decoration: none;
-					transform: rotate(90deg) translateX(30%) scale(1.08);
+					transform: rotate(90deg) translateX(30%) translateY(80%)
+						scale(1.08);
 				}
 			}
 		}
@@ -63,11 +73,21 @@ body {
 		.about-img {
 			max-width: $breakpoint-md;
 			margin: $spacing_eight auto;
+			transition-duration: 800ms;
 
 			img {
 				width: 100%;
 				border-radius: 16px;
 				filter: grayscale(1);
+			}
+
+			&:hover {
+				max-width: 100%;
+
+				img {
+					filter: none;
+					width: 100%;
+				}
 			}
 		}
 

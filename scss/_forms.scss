@@ -65,7 +65,7 @@ form {
 }
 
 .button {
-	padding: $spacing_two $spacing_seven;
+	padding: $spacing_two $spacing_four;
 	border: 2px solid var(--black_dusty);
 	border-radius: 64px;
 	transition: 400ms;
@@ -74,9 +74,12 @@ form {
 	width: fit-content;
 	transition-duration: 400ms;
 
+	@media (min-width: $breakpoint-lg) {
+		padding: $spacing_two $spacing_seven;
+	}
+
 	&:hover {
 		text-decoration: none;
-		color: var(--black_dusty);
 		transform: scale(1.08);
 	}
 }

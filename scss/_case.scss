@@ -45,11 +45,6 @@ body {
 			}
 
 			@media (min-width: 1380px) {
-				&.left {
-					float: left;
-					margin-left: calc(((100% - 1092px) / 2) - 80px);
-				}
-
 				&.right {
 					float: right;
 					margin-right: calc(((100% - 1092px) / 2) - 80px);
@@ -65,62 +60,6 @@ body {
 				position: sticky;
 				padding: 16px;
 				max-width: calc((1280px - 800px) / 2);
-
-				a {
-					margin: 8px auto 0 auto;
-				}
-			}
-		}
-
-		.soc-float {
-			position: fixed;
-			bottom: 4px;
-			display: flex;
-			background: var(--white_off);
-			transition: all 0.4s ease;
-			padding: 8px;
-			z-index: 1;
-			right: 4px;
-
-			p {
-				margin: 0;
-				color: var(--grey_med);
-				font-size: 14px;
-			}
-
-			a {
-				margin: 0 8px;
-				padding: 0;
-				text-decoration: none;
-				line-height: 0px;
-
-				img {
-					font-size: 12px;
-					box-sizing: border-box;
-					display: block;
-					filter: $filter;
-					opacity: 1;
-
-					&:hover {
-						opacity: 0.8;
-					}
-				}
-			}
-
-			&:hover {
-				filter: none;
-			}
-
-			@media (min-width: 768px) {
-				right: 24px;
-			}
-
-			@media (min-width: 1380px) {
-				position: unset;
-				flex-direction: column;
-				padding: 16px;
-				margin-bottom: 24px;
-				margin: 8px;
 
 				a {
 					margin: 8px auto 0 auto;
