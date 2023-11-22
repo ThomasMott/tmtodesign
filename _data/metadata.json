@@ -1,0 +1,9 @@
+{
+	"feed": {
+		"subtitle": "FoxGibbon is your source for design news & tutorials. Whether professional or enthusiast, it is a place to find information, source inspiration & seek help.",
+		"filename": "feed.xml",
+		"path": "/feed/feed.xml",
+		"url": "https://foxgibbon.com/feed/feed.xml",
+		"id": "https://foxgibbon.com/"
+	}
+}

@@ -1,0 +1,11 @@
+.categories {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: $spacing_three;
+
+	a {
+		text-transform: capitalize;
+		text-decoration: none;
+	}
+}

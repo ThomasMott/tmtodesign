@@ -4,6 +4,7 @@
 @import "./_breadcrumbs";
 @import "./_card.scss";
 @import "./_case";
+@import "./_filter.scss";
 @import "./_footer.scss";
 @import "./_forms.scss";
 @import "./_grid";
