@@ -1,9 +1,13 @@
 ---
-title: About - FoxGibbon
-layout: layouts/page.njk
+title: Thomas Mott | Ux/ UI consultancy.
+description: The visionary design studio which creates flawless solutions to solve challenges like no other.
+layout: layouts/base.njk
+js: index
 ---
 
-Work with me
+<section class="bg">
+	<div class="grid" id="about">
+		Work with me
 
 I'm an independent accessibility advocate, front-end engineer, inclusive designer, and educator. You can hire me on a freelance basis for short-term and long-term projects, accessibility reviews and training.
 
@@ -99,3 +103,15 @@ Contact Information
 Want to work with me on a project? Need a talk or training session? Contact me on collab@fossheim.io to discuss. Please include your expected timeline, scope and budget in your intitial email so I can get back to you faster. If you're booking me for a training session, it's also useful to know how many people will be attending, and what their background is.
 
     Send me an email
+    	</div>
+    </section>
+    <section>
+    	<div class="grid">
+    		<div class="details">
+    			<h2>Reach out.</h2>
+    			<p>If you have a project that you think might fit me, you can reach out through <a href="mailto:thomasnmott1997@gmail.com">thomasnmott1997@gmail.com</a> or <a href="https://www.linkedin.com/in/thomas-mott-57348b150/">LinkedIn</a>.</p>
+    		</div>
+    	</div>
+    </section>
+
+</div>
