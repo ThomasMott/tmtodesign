@@ -1,13 +1,13 @@
 <section id="main">
 	<div class="grid">
 		<div class="categories">
-		<a class="button" href="/"
+		<a href="/"
 		{% if page.url == "/" %}
 			aria-current="page"
 		{% endif %}
 		>all</a>
 		{% for category in collections.categories %}
-			<a class="button" href="/categories/{{ category.slug }}/"
+			<a href="/categories/{{ category.slug }}/"
 			{% if category.title in page.url %}
 				aria-current="page"
 			{% endif %}
