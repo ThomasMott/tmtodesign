@@ -11,7 +11,6 @@
 		padding: $spacing_seven $spacing_six;
 		flex-wrap: wrap;
 		gap: $spacing_three;
-		max-width: 1092px;
 		width: 100%;
 		box-sizing: border-box;
 		align-items: center;
@@ -51,7 +50,6 @@
 	.footers-inner {
 		padding: $spacing_seven $spacing_six;
 		justify-content: center;
-		max-width: 1092px;
 		width: 100%;
 		box-sizing: border-box;
 		justify-content: space-between;
@@ -71,6 +69,7 @@
 
 .footers-top {
 	display: flex;
+	background-color: var(--white);
 	justify-content: center;
 	width: 100%;
 	align-items: center;
@@ -78,7 +77,6 @@
 	.footers-inner {
 		padding: $spacing_seven $spacing_six;
 		justify-content: center;
-		max-width: 1092px;
 		width: 100%;
 		box-sizing: border-box;
 		justify-content: space-between;
