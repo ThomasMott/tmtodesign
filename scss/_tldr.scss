@@ -8,8 +8,9 @@
 
 	.tldr-inner {
 		margin: $spacing_eight 0;
-		box-shadow: var(--black_dusty) 8px 8px 0px 0px;
-		border: 2px solid var(--black_dusty);
+		box-shadow: var(--black_dusty) 4px 4px 0px 0px;
+		border-radius: 16px;
+		border: 1px solid var(--black_dusty);
 		padding: $spacing_five;
 		background: var(--white);
 	}
@@ -25,6 +26,14 @@
 		left: 0;
 		position: sticky;
 	}
+}
+
+.tldr-text {
+	font-size: 24px;
+	line-height: 40px;
+	text-align: center;
+	margin: $spacing_ten auto;
+	max-width: $breakpoint-sm;
 }
 
 .details {

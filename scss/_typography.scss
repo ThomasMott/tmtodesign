@@ -18,8 +18,8 @@ h6 {
 
 	span {
 		font-family: "Rubik", serif;
-		background-color: var(--yellow);
-		color: var(--black_dusty);
+		background-color: var(--black_jet);
+		color: var(--white_off);
 	}
 
 	a {
@@ -35,7 +35,7 @@ h1 {
 	max-width: $breakpoint-sm;
 
 	&.shadow {
-		text-shadow: 3px 3px var(--yellow);
+		text-shadow: 3px 3px var(--black_jet);
 	}
 }
 
@@ -86,7 +86,7 @@ a {
 	color: var(--black_dusty);
 
 	&:hover {
-		color: var(--orange);
+		color: var(--grey_med);
 		text-decoration: underline;
 	}
 }

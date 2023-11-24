@@ -73,7 +73,7 @@ module.exports = function (eleventyConfig) {
 		// }
 		const shuffled = shuffle(relatedFilter);
 
-		return shuffled.slice(0, 2);
+		return shuffled.slice(0, 1);
 	});
 
 	eleventyConfig.addCollection("tagsList", function (collectionApi) {

@@ -16,7 +16,7 @@ js: read
 					{% endif %}
 				{% endfor %}
 			</ul>
-			<h1 class="title"><span>{{ title }}</span></h1>
+			<h1 class="title">{{ title }}</h1>
 			{% if tldr %}
 				<div class="tldr">
 					<p>{{ tldr }}</p>
@@ -55,5 +55,5 @@ js: read
 	</div>
 </section>
 <div id="reading-progress"><div class="reading-progress-container"><div id="reading-progress-fill"></div></div></div>
-{% set posts = collections[tags[1]] | related(page.url, 9997) %}
-{% include "posts-related.njk" %}
+{% set posts = collections[tags[1]] | related(page.url, 9998) %}
+{% include "posts.njk" %}

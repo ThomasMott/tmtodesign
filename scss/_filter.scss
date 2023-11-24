@@ -5,7 +5,7 @@
 	flex-wrap: wrap;
 
 	span {
-		color: var(--orange);
+		color: var(--grey_med);
 		font-weight: bold;
 	}
 
@@ -16,8 +16,7 @@
 		text-decoration: none;
 
 		&[aria-current="page"] {
-			color: var(--black_dusty);
-			background-color: var(--yellow);
+			color: var(--grey_light);
 			cursor: auto;
 
 			&::before {
@@ -31,7 +30,7 @@
 			width: 100%;
 			height: 4px;
 			border-radius: 4px;
-			background-color: var(--orange);
+			background-color: var(--grey_med);
 			bottom: -2px;
 			height: 1.6px;
 			left: 0;

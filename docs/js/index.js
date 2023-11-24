@@ -6,8 +6,8 @@ function init() {
 }
 
 function createMagic() {
-	for (i = 4; i < 96; i += 8) {
-		for (j = 8; j <= 96; j += 8) {
+	for (i = 8; i <= 96; i += 8) {
+		for (j = 8; j <= 96; j += 16) {
 			const div = document.createElement("div");
 			div.classList.add("bg-dot");
 			const innerDiv = document.createElement("div");

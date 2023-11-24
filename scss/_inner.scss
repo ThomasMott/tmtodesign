@@ -7,7 +7,7 @@ body {
 
 			img {
 				max-width: 100%;
-				opacity: 0.08;
+				opacity: 0.06;
 				filter: var(--filter);
 			}
 		}
@@ -45,15 +45,17 @@ body {
 
 					li {
 						padding: $spacing_three $spacing_six;
-						border: 1px dashed var(--black_jet);
+						background: var(--black_jet);
 						border-radius: 64px;
+						color: var(--white_off);
+						opacity: 0.7;
 						margin: 0;
 					}
 				}
 			}
 
 			.more {
-				border: 2px solid var(--black_jet);
+				border: 1px solid var(--black_jet);
 				padding: $spacing_four $spacing_six;
 				border-radius: 64px;
 				width: fit-content;
@@ -93,9 +95,15 @@ body {
 
 		section {
 			display: block;
+			background-image: radial-gradient(
+				var(--grey_light) 1px,
+				transparent 0
+			);
+			background-size: 4rem 4rem;
 
 			&.bg {
 				background-color: var(--white);
+				background-image: none;
 
 				.grid {
 					margin-bottom: 0;
@@ -107,7 +115,7 @@ body {
 				color: var(--grey_med);
 
 				span {
-					color: var(--orange);
+					color: var(--grey_med);
 					font-weight: bold;
 				}
 			}
@@ -120,7 +128,7 @@ body {
 			}
 
 			.sec-title {
-				color: var(--orange);
+				color: var(--grey_med);
 				font-weight: 600;
 				font-size: 40px;
 				line-height: 64px;
@@ -150,7 +158,7 @@ body {
 			.grid {
 				margin: 0 auto;
 				max-width: 1280px;
-				padding: $spacing_seven $spacing_six;
+				padding: $spacing_ten $spacing_six;
 
 				.ul-s {
 					display: flex;
@@ -158,7 +166,7 @@ body {
 					flex-wrap: wrap;
 
 					li {
-						border: 2px solid var(--black_jet);
+						border: 1px solid var(--black_jet);
 						padding: 0 $spacing_three;
 						border-radius: 64px;
 						list-style: none;

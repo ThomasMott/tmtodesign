@@ -51,7 +51,7 @@ body {
 				}
 
 				.float {
-					border-top: 4px solid var(--orange);
+					border-top: 4px solid var(--grey_med);
 				}
 
 				position: fixed;
@@ -111,8 +111,8 @@ body {
 					font-weight: bold;
 					background: linear-gradient(
 						to bottom,
-						var(--yellow) 0%,
-						var(--yellow) 100%
+						var(--black_jet) 0%,
+						var(--black_jet) 100%
 					);
 					background-position: 0 100%;
 					background-repeat: repeat-x;
@@ -139,11 +139,9 @@ body {
 					line-height: 48px;
 
 					span {
-						color: var(--black_jet);
 						font-weight: 400;
 						font-style: italic;
 						font-size: 13px;
-						background-color: rgb(252, 235, 178);
 					}
 				}
 			}

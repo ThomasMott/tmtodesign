@@ -3,15 +3,25 @@
 	flex-wrap: wrap;
 	gap: $spacing_four;
 	padding: $spacing_five;
-	margin: $spacing_five 0;
-	box-shadow: var(--black_dusty) 8px 8px 0px 0px;
-	border: 2px solid var(--black_dusty);
+	margin: $spacing_five auto;
+	box-shadow: var(--black_dusty) 4px 4px 0px 0px;
+	border: 1px solid var(--black_dusty);
+	background: var(--white);
+	justify-content: center;
+	max-width: $breakpoint-sm;
+	border-radius: 16px;
 
 	li {
 		padding: $spacing_three $spacing_four;
 		border: 1px dashed var(--black_dusty);
 		margin: 0 !important;
 		border-radius: 64px;
+
+		&.imp {
+			background: var(--black_jet);
+			color: var(--white_off);
+			border: 1px solid var(--black_jet);
+		}
 	}
 }
 
@@ -35,8 +45,9 @@
 	margin: $spacing_six $spacing_six $spacing_nine $spacing_six;
 
 	div {
-		box-shadow: var(--black_dusty) 8px 8px 0px 0px;
-		border: 2px solid var(--black_dusty);
+		box-shadow: var(--black_dusty) 4px 4px 0px 0px;
+		border: 1px solid var(--black_dusty);
+		border-radius: 16px;
 		background: var(--white);
 		padding: $spacing_five;
 		transition: transform 400ms;
