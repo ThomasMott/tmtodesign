@@ -1,6 +1,7 @@
 body {
 	&.inner {
 		background-color: var(--white_off);
+		width: 100%;
 
 		.intro-img {
 			width: 100%;
@@ -17,15 +18,31 @@ body {
 		}
 
 		.home {
-			width: 100vw;
-			height: calc(100vh - 64px);
+			width: 100%;
+
+			img {
+				display: none;
+			}
 
 			.intro {
-				position: absolute;
-				top: 50%;
-				transform: translateY(-50%);
 				margin-bottom: $spacing_seven;
 				z-index: 1;
+			}
+
+			@media (min-height: $breakpoint-md) {
+				height: calc(100vh - 64px);
+
+				img {
+					display: block;
+				}
+
+				.intro {
+					position: absolute;
+					top: 50%;
+					transform: translateY(-50%);
+					margin-bottom: $spacing_seven;
+					z-index: 1;
+				}
 			}
 
 			.secondary {

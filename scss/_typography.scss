@@ -28,8 +28,8 @@ h6 {
 }
 
 h1 {
-	font-size: 64px;
-	line-height: 76px;
+	font-size: 40px;
+	line-height: 48px;
 	margin: $spacing_six 0 $spacing_four 0;
 	letter-spacing: 0.01em;
 	max-width: $breakpoint-sm;
@@ -58,6 +58,13 @@ h3 {
 	line-height: 32px;
 	margin: $spacing_three 0 $spacing_one 0;
 	letter-spacing: 0.01em;
+}
+
+@media (min-width: $breakpoint-sm) {
+	h1 {
+		font-size: 64px;
+		line-height: 76px;
+	}
 }
 
 p,
@@ -93,8 +100,8 @@ a {
 
 .intro {
 	h1 {
-		font-size: 100px;
-		line-height: 104px;
+		font-size: 60px;
+		line-height: 68px;
 		padding: 0;
 		margin: 0;
 		max-width: 420px;
@@ -102,10 +109,22 @@ a {
 
 	h2 {
 		max-width: 420px;
-		font-size: 148px;
-		line-height: 154px;
+		font-size: 88px;
+		line-height: 96px;
 		padding: 0;
 		margin: 0;
 		margin-bottom: $spacing_six;
+	}
+
+	@media (min-width: $breakpoint-sm) {
+		h1 {
+			font-size: 100px;
+			line-height: 104px;
+		}
+
+		h2 {
+			font-size: 148px;
+			line-height: 154px;
+		}
 	}
 }

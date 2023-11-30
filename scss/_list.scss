@@ -42,7 +42,11 @@
 	display: grid;
 	gap: $spacing_six;
 	padding-bottom: $spacing_five;
-	margin: $spacing_six $spacing_six $spacing_nine $spacing_six;
+	margin: $spacing_six $spacing_two $spacing_six $spacing_two;
+
+	@media (min-width: $breakpoint-sm) {
+		margin: $spacing_six $spacing_six $spacing_six $spacing_six;
+	}
 
 	div {
 		box-shadow: var(--black_dusty) 4px 4px 0px 0px;

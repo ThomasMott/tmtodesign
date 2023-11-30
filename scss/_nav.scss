@@ -30,10 +30,6 @@
 			border-radius: 64px;
 		}
 
-		.contact {
-			// contact button css here
-		}
-
 		.nav-links {
 			list-style: none;
 			display: none;
@@ -61,6 +57,24 @@
 		.nav-logo {
 			a {
 				text-decoration: none;
+
+				span:after {
+					content: "T";
+				}
+
+				h3:after {
+					content: "M";
+				}
+			}
+
+			&:hover {
+				span:after {
+					content: "Thomas";
+				}
+
+				h3:after {
+					content: "Mott";
+				}
 			}
 		}
 

@@ -3,9 +3,6 @@ window.onload = myFunction;
 // runs on load
 function myFunction() {
 	setThemeOnLoad();
-	if (typeof init == "function") {
-		init();
-	}
 	document
 		.getElementById("footer-theme")
 		.addEventListener("click", changeTheme);
@@ -13,8 +10,7 @@ function myFunction() {
 
 // set theme on click
 function changeTheme(e) {
-	const themeValue = e.target.closest(`div`).querySelector("h4").innerHTML;
-	console.log(themeValue);
+	const themeValue = e.target.closest(`div`).querySelector("p").innerHTML;
 	setThemeLS(themeValue);
 }
 
