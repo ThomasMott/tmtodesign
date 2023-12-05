@@ -70,6 +70,7 @@
 				height: 400px;
 				overflow: hidden;
 				transition-duration: 400ms;
+				opacity: 0.8;
 
 				img {
 					border-style: none;
@@ -81,6 +82,7 @@
 
 				&:hover {
 					transform: rotate(2deg);
+					opacity: 1;
 				}
 			}
 

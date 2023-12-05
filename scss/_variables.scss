@@ -10,18 +10,9 @@ $breakpoint-lx: 2200px;
 
 /*colours*/
 :root {
-	--filter: none;
+	--filter: brightness(10);
 
 	#default {
-		--black_dusty: #455385;
-		--black_jet: #5b6485;
-		--grey_med: #787088;
-		--grey_light: #d7d7d7;
-		--white_off: #fbf8f4;
-		--white: #fcfcfc;
-	}
-
-	#dark {
 		--black_dusty: #e6e6e6;
 		--black_jet: #f6f0e2;
 		--grey_med: #bcbcbc;
@@ -32,6 +23,17 @@ $breakpoint-lx: 2200px;
 		--filter: brightness(10);
 	}
 
+	#light {
+		--black_dusty: #455385;
+		--black_jet: #5b6485;
+		--grey_med: #787088;
+		--grey_light: #d7d7d7;
+		--white_off: #fbf8f4;
+		--white: #fcfcfc;
+
+		--filter: none;
+	}
+
 	#candy {
 		--black_dusty: #4e609f;
 		--black_jet: #6874a0;
@@ -39,6 +41,8 @@ $breakpoint-lx: 2200px;
 		--grey_light: #e7e7e7;
 		--white_off: #fdf0f2;
 		--white: #f1fdfd;
+
+		--filter: none;
 	}
 
 	#sea {
@@ -48,6 +52,8 @@ $breakpoint-lx: 2200px;
 		--grey_light: #e7e7e7;
 		--white_off: #e7fbf9;
 		--white: #fcf6e2;
+
+		--filter: none;
 	}
 }
 
