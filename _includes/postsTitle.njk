@@ -1,8 +1,12 @@
 <section id="main">
 	<div class="grid">
+		{% if page.url == "/projects/" %}
+			<h1 class="category-title">All projects</h1>
+		{% endif %}
+		<h1 class="category-title">{{ category.title }}</h1>
 		<div class="categories">
-		<a href="/"
-		{% if page.url == "/" %}
+		<a href="/projects/"
+		{% if page.url == "/projects/" %}
 			aria-current="page"
 		{% endif %}
 		>all</a>

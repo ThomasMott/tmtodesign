@@ -86,6 +86,14 @@
 				}
 			}
 
+			&:nth-of-type(odd) {
+				.card-img {
+					&:hover {
+						transform: rotate(-2deg);
+					}
+				}
+			}
+
 			@media (min-width: $breakpoint-md) {
 				grid-template-columns: repeat(2, 1fr);
 

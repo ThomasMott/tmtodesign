@@ -1,8 +1,13 @@
+.category-title {
+	margin: $spacing_six auto 0 auto;
+	width: fit-content;
+	text-transform: capitalize;
+}
+
 .categories {
-	display: flex;
-	justify-content: center;
-	gap: $spacing_six;
-	flex-wrap: wrap;
+	width: fit-content;
+	margin: $spacing_five auto 0 auto;
+	text-align: center;
 
 	span {
 		color: var(--grey_med);
@@ -10,10 +15,13 @@
 	}
 
 	a {
-		line-height: 20px;
-		font-size: 20px;
+		padding: 0;
+		margin-inline: 8px;
+		line-height: 24px;
+		font-size: 18px;
 		text-transform: capitalize;
 		text-decoration: none;
+		letter-spacing: 0.08rem;
 
 		&[aria-current="page"] {
 			color: var(--grey_light);
