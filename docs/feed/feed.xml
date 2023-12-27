@@ -16,16 +16,20 @@
     <link href="/projects/smartsource/"/>
     <updated>2023-11-07T00:00:00Z</updated>
     <id>/projects/smartsource/</id>
-    <content type="html">&lt;p&gt;SmartSource was a solo project which followed the 4 D&#39;s design process. I conducted the research and defined all the contextual issues. I then conducted interviews, card sorting and bodystorming sessions with participants from SME&#39;s &lt;em&gt;(small, medium enterprises)&lt;/em&gt;. Participants were also asked to create photo diaries of their business waste material over a month. This produced a wealth of rich qualitative data.&lt;/p&gt;
-&lt;figure&gt;
-	&lt;img src=&quot;/static/images/projects/smartsource/ss-1.jpg&quot; alt=&quot;workshop visited for research&quot; /&gt;
-	&lt;img src=&quot;/static/images/projects/smartsource/ss-ae.jpg&quot; alt=&quot;waste in skip&quot; /&gt;
+    <content type="html">&lt;p&gt;&lt;strong&gt;Smartsource is a UK start-up based in Bristol. It&#39;s an all-in-one platform that allows small businesses to trade and share resources with its own marketplace.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;With Smartsource, you have a single app where you can easily market your extra resources, communicate with other companies, and even create wishlists for new materials. This project has already secured significant interest, and the sky is the limit for its potential.&lt;/p&gt;
+&lt;p&gt;The concept, sitemap, wireframes and early design were shaped by research, interviews and first hand ethnographic research with participants from SME&#39;s &lt;em&gt;(small, medium enterprises)&lt;/em&gt;. This produced a wealth of rich qualitative data.&lt;/p&gt;
+&lt;!-- &lt;figure&gt;
+	&lt;img
+		src=&quot;/static/images/projects/smartsource/ss-1.jpg&quot;
+		alt=&quot;workshop visited for research&quot;
+	/&gt;
 	&lt;figcaption&gt;
 		Visiting small and medium enterprises to gain first hand
 		qualitative data
 	&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;Collected data was compiled and synthesised into key usability problems. This information was supported by creating customer journey maps, storyboards and mapping out user journeys.&lt;/p&gt;
+&lt;/figure&gt; --&gt;
+&lt;p&gt;Data was compiled and synthesised into key usability problems. This information was supported by creating customer journey maps, storyboards and mapping out user journeys.&lt;/p&gt;
 &lt;figure&gt;
 	&lt;img src=&quot;/static/images/projects/smartsource/ss-uj.png&quot; alt=&quot;user journey map&quot; style=&quot;height: auto&quot; /&gt;
 	&lt;figcaption&gt;
@@ -44,10 +48,9 @@
 		Storyboarding user journeys
 	&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;h2&gt;Goals&lt;/h2&gt;
-&lt;p&gt;As someone with experience in manufacturing industry and a passion for projects that help to support a green future, the main goal of the project, was to reduce the impact of manufacturing companies on national waste production.&lt;/p&gt;
+&lt;p&gt;Once the idea was supported, rigorous website UX testing and analysis of communication and website structure was used to shape the service. Once we established this strong foundation, we proceeded to create a more robust brand and design that truly served their business goals.&lt;/p&gt;
 &lt;h2&gt;Outcome&lt;/h2&gt;
-&lt;p&gt;Companies involved in the process were incredibly happy with the final outcome and the prospects that the platform could offer them. Environmental, economic and social benefits were found to have been made clear through the branding and app onboarding, flow and features. &lt;a href=&quot;https://gcza99.axshare.com&quot;&gt;View the live prototype here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Companies involved in the process were incredibly happy with the final outcome and the prospects that the platform could offer them. &lt;a href=&quot;https://gcza99.axshare.com&quot;&gt;View the live prototype here&lt;/a&gt;.&lt;/p&gt;
 &lt;figure&gt;
 	&lt;img src=&quot;/static/images/projects/smartsource/ss-o.jpg&quot; alt=&quot;smartsource app screens&quot; style=&quot;height: auto&quot; /&gt;
 	&lt;figcaption&gt;
@@ -58,56 +61,12 @@
   </entry>
   
   <entry>
-    <title>Recoll</title>
-    <link href="/projects/recoll/"/>
-    <updated>2023-11-07T00:00:00Z</updated>
-    <id>/projects/recoll/</id>
-    <content type="html">&lt;p&gt;Education 4.0 is a purposeful approach to learning that lines up with the fourth industrial revolution and about transforming the future of education using advanced technology and automation.&lt;/p&gt;
-&lt;p&gt;The design process followed the double diamond model. The primary focus of this project was providing value to users &lt;em&gt;(university students with high workloads)&lt;/em&gt; as well as making sure that the final output was feasible for developers. This required extensive multidisciplinary team working to ensure a productive and purposeful Artificial Intelligence.&lt;/p&gt;
-&lt;figure&gt;
-	&lt;img src=&quot;/static/images/projects/recoll/rc-ai.png&quot; alt=&quot;AI structure&quot; style=&quot;height: auto&quot; /&gt;
-	&lt;figcaption&gt;
-		Mapping out AI structure
-	&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;h2&gt;Process&lt;/h2&gt;
-&lt;p&gt;Key insights from the initial research and discovery phases were achieved using literature reviews. Once we had developed some initial insights we tested them using storyboarding, observation and interviews.&lt;/p&gt;
-&lt;p&gt;Initial wire-frames were sketched out on paper so team could get a mutual understanding of how the app would flow. The wire-frames were then transferred into Adobe Xd to create something more interactive and tangible.These designs were influenced by Android &lt;a href=&quot;https://developer.android.com/guide/topics/ui&quot;&gt;User Interface, Navigation&lt;/a&gt; and &lt;a href=&quot;https://developer.android.com/guide/topics/ui/declaring-layout&quot;&gt;Layouts&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;To make sure the prototype was suited to the defined users we sat down and observed them using the app, noting down key challenges and usability issues that were gathered using think aloud protocol.&lt;/p&gt;
-&lt;figure&gt;
-	&lt;img src=&quot;/static/images/projects/recoll/rc-2.jpg&quot; alt=&quot;user testing&quot; /&gt;
-	&lt;figcaption&gt;
-		Testing Xd wire-frames with users
-	&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;figure&gt;
-	&lt;img src=&quot;/static/images/projects/recoll/rc-cj.png&quot; alt=&quot;customer journey mapping&quot; style=&quot;height: auto&quot; /&gt;
-	&lt;figcaption&gt;
-		Mapping emotions throughout the app flow to identify strengths and weaknesses for development
-	&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;h2&gt;Goals&lt;/h2&gt;
-&lt;p&gt;The main goal of the project was to improve the university experience for those who were not feeling supported.&lt;/p&gt;
-&lt;p&gt;The greatest challenge faced during the project was to provide this support without having a negative impact on the existing university services or increasing the workload of users &lt;em&gt;(students)&lt;/em&gt;. A secondary challenge was ensuring the Artificial Intelligence was relevant to the product and that data was handled ethically.&lt;/p&gt;
-&lt;p&gt;These were achieved with user testing and liaising with developers during the ideation, wire-framing and iteration stages.&lt;/p&gt;
-&lt;h2&gt;Outcome&lt;/h2&gt;
-&lt;p&gt;Independent testing with the student body showed that participants felt the project was beneficial to the university experience and supported their education development.&lt;/p&gt;
-&lt;figure&gt;
-	&lt;img src=&quot;/static/images/projects/recoll/rc-o.png&quot; alt=&quot;recoll app screens&quot; style=&quot;height: auto&quot; /&gt;
-	&lt;img src=&quot;/static/images/projects/recoll/rc.jpg&quot; alt=&quot;recoll app mockup&quot; style=&quot;height: auto&quot; /&gt;
-	&lt;figcaption&gt;
-		Final deliverables for the Recoll app
-	&lt;/figcaption&gt;
-&lt;/figure&gt;
-</content>
-  </entry>
-  
-  <entry>
     <title>Ralph Lauren</title>
     <link href="/projects/ralph-lauren/"/>
     <updated>2023-11-07T00:00:00Z</updated>
     <id>/projects/ralph-lauren/</id>
-    <content type="html">&lt;p&gt;The design process followed the double diamond model. The first step was to conduct thematic, heuristic, satisfaction and performance related issues across the website. Issues were then catalogued to discover ways to make the site more intuitive and satisfying to navigate.&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;strong&gt;Ralph Lauren Corporation, a global leader of premium lifestyle products including apparel, accessories, home, fragrances, and hospitality.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;We conducted thematic, heuristic, satisfaction and performance related issues across the Ralph Lauren website. Issues were then catalogued to discover ways to make the site more intuitive and satisfying to navigate.&lt;/p&gt;
 &lt;figure&gt;
 	&lt;img src=&quot;/static/images/projects/ralph-lauren/rl-an.png&quot; alt=&quot;ralph lauren analysis&quot; style=&quot;height: auto&quot; /&gt;
 	&lt;figcaption&gt;
@@ -115,7 +74,6 @@
 		Satisfaction analysis
 	&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;h2&gt;Goals&lt;/h2&gt;
 &lt;p&gt;The main goal of the project, adding value to the Ralph Lauren website was particularly challenging. The company has a design team dedicated to improving sales and conversion rates. This meant that research and testing had to be highly user-focused to achieve a meaningful design outcome.&lt;/p&gt;
 &lt;figure&gt;
 	&lt;img src=&quot;/static/images/projects/ralph-lauren/rl-t.png&quot; alt=&quot;user interviews&quot; style=&quot;height: auto&quot; /&gt;
@@ -124,7 +82,6 @@
 		statistically significant results
 	&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;h2&gt;Outcome&lt;/h2&gt;
 &lt;p&gt;Testing showed that there was a statistically significant decrease in SUS scores between the original website (w1) (M= 82.1.6, SD= 9.674) to the redesign (w2) (M= 89.1 SD= 10.126), t (25) = 3.013, p &amp;lt; .05 (two tailed). The mean difference in SUS scores was 7.0 The eta squared statistic (0.275) indicated a large effect size. A power of .90 was achieved.&lt;/p&gt;
 &lt;p&gt;This means that the Ralph Lauren redesign is more ‘usable’ and satisfying than the original website.&lt;/p&gt;
 &lt;p&gt;We are 90% certain this answer is correct and unaffected by chance.&lt;/p&gt;
@@ -143,7 +100,8 @@
     <link href="/projects/petlet/"/>
     <updated>2023-11-07T00:00:00Z</updated>
     <id>/projects/petlet/</id>
-    <content type="html">&lt;p&gt;The project followed the double diamond model. Emphasis was placed on the research and discovery phase, to emphasise the needs of the user. We made sure to use research processes that delivered real insights &lt;em&gt;(card sorting, interviews, observation)&lt;/em&gt;.&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;strong&gt;Tails.com are well known for their quality dog food offerings but we were challenged by the company to condut research into other revenue streams that they could look to expand into with their existing customer base.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Emphasis was placed on research and discovery for this project, to find unique insights and emphasise the needs of the user. We utilised many research methodologies during this time &lt;em&gt;(card sorting, interviews, observation)&lt;/em&gt;.&lt;/p&gt;
 &lt;figure&gt;
 	&lt;img src=&quot;/static/images/projects/petlet/pl-e.png&quot; alt=&quot;brainstorming on whiteboards&quot; /&gt;
 	&lt;figcaption&gt;
@@ -151,7 +109,6 @@
 		value to users
 	&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;h2&gt;Process&lt;/h2&gt;
 &lt;p&gt;As this was a project with a quick turnaround. We ran a week long design sprint to iterate the app in collaboration with users. This was an excellent experience to work in a fast paced design environment.&lt;/p&gt;
 &lt;figure&gt;
 	&lt;img src=&quot;/static/images/projects/petlet/pl-j.png&quot; alt=&quot;design sprint process&quot; style=&quot;height: auto&quot; /&gt;
@@ -159,8 +116,8 @@
 		Stages of the week-long design sprint
 	&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;h2&gt;Goals&lt;/h2&gt;
-&lt;p&gt;The main goal of the project was to improve the lives of people who are caring for multiple pets. As pets are considered to be &amp;quot;part of the family&amp;quot;, one of the biggest challenges was conducting research respectfully. The data gathered related to personal lifestyle choices of the owners regarding their pets. Whilst being respectful and open, we also had to gather enough detail to produce a purposeful
+&lt;p&gt;Through research phases it was found that there was a gap to improve the lives of people who are caring for multiple pets.&lt;/p&gt;
+&lt;p&gt;As pets are considered to be &amp;quot;part of the family&amp;quot;, one of the biggest challenges was conducting research respectfully. The data gathered related to personal lifestyle choices of the owners regarding their pets. Whilst being respectful and open, we also had to gather enough detail to produce a purposeful
 design solution.&lt;/p&gt;
 &lt;p&gt;To ensure that all the information was thoroughly reviewed personas, experience maps and storyboards were used. This helped to ensure that the most meaningful insights, with the greatest value to users could be collated.&lt;/p&gt;
 &lt;figure&gt;
@@ -170,15 +127,15 @@ design solution.&lt;/p&gt;
 		process
 	&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt;Prototypes were extensively tested with defined target users. Users were encouraged to interact with the prototype app, this helped to ascertain if it was intuitive to use.&lt;/p&gt;
+&lt;p&gt;Prototypes were extensively tested with defined target users.&lt;/p&gt;
 &lt;figure&gt;
 	&lt;img src=&quot;/static/images/projects/petlet/pl-1.png&quot; alt=&quot;wireframes of petlet app&quot; style=&quot;height: auto&quot; /&gt;
 	&lt;figcaption&gt;
 		Low fidelity wireframe sketches
 	&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;h2&gt;Outcome&lt;/h2&gt;
-&lt;p&gt;The main goal of the project was to improve the lives of people who are caring for multiple pets. Our team achieved this by producing an app that linked key care components for each pet onto one system. Owners could easily access pet services such as veterinarians and petsitters, set tasks and routines for their pets; and while away, delegate those tasks to relevant carers remotely to monitor progress.&lt;/p&gt;
+&lt;p&gt;Our team produced a high fidelity prototype app that linked key care components for each pet onto one system. Owners could easily access pet services such as veterinarians and petsitters, set tasks and routines for their pets; and while away, delegate those tasks to relevant carers remotely to monitor progress.&lt;/p&gt;
+&lt;p&gt;The deliverables were handed over to Tails to continue development in house.&lt;/p&gt;
 &lt;figure&gt;
 	&lt;img src=&quot;/static/images/projects/petlet/pl-m.png&quot; alt=&quot;petlet app flow&quot; style=&quot;height: auto&quot; /&gt;
 	&lt;img src=&quot;/static/images/projects/petlet/pl.jpg&quot; alt=&quot;petlet mobile mock up&quot; /&gt;
@@ -194,8 +151,10 @@ design solution.&lt;/p&gt;
     <link href="/projects/mojeek/"/>
     <updated>2023-11-07T00:00:00Z</updated>
     <id>/projects/mojeek/</id>
-    <content type="html">&lt;p&gt;As the lead of Mojeek&#39;s website redesign, I spearheaded a comprehensive process that spanned over two years. With a focus on accessibility and user-centered design, the redesign journey aimed to enhance the website&#39;s usability and deliver an exceptional user experience. As a team, we embarked on a journey that involved various stages, including accessibility and heuristic reviews, user interviews, SUS testing, guided observation, and more.&lt;/p&gt;
-&lt;h2&gt;Research: Laying the Foundation&lt;/h2&gt;
+    <content type="html">&lt;p&gt;&lt;strong&gt;Mojeek is a UK start-up based in Brighton. They are responsible for the worlds first privacy based search engine.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;As the lead of Mojeek&#39;s website redesign, I spearheaded a comprehensive process that spanned over two years. With an initial focus on accessibility and user-centered design, the redesign journey aimed to enhance the website&#39;s usability and deliver an exceptional user experience.&lt;/p&gt;
+&lt;p&gt;As a team, we embarked on a journey that involved various stages, including accessibility and heuristic reviews, user interviews, SUS testing, guided observation, and more.&lt;/p&gt;
+&lt;h2&gt;Laying the Foundation&lt;/h2&gt;
 &lt;p&gt;To gain valuable insights into user needs and preferences, we conducted user interviews, engaging directly with representative users to understand their motivations, goals, and pain points. These interviews formed the foundation for informed design decisions and helped shape the redesign strategy.&lt;/p&gt;
 &lt;p&gt;Quantitative measurements of usability were obtained through System Usability Scale (SUS) testing, coupled with guided observation to gather real-time feedback from users. This iterative process allowed for continuous refinement and enhancement of the website&#39;s design, informed by user insights and preferences.&lt;/p&gt;
 &lt;p&gt;Throughout the two-year duration, findings from accessibility and heuristic reviews, user interviews, SUS testing, and guided observation were diligently collected and analyzed. Miro, an online collaboration platform, facilitated the organization and visualization of data, enabling me to prioritize and address identified issues and opportunities for improvement.&lt;/p&gt;
@@ -206,7 +165,7 @@ design solution.&lt;/p&gt;
 		features of Mojeek.
 	&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;h2&gt;Prototyping: Designing the User Experience&lt;/h2&gt;
+&lt;h2&gt;Designing the User Experience&lt;/h2&gt;
 &lt;p&gt;Prototypes and mock-ups were created iteratively, ensuring that design concepts were thoroughly explored and refined using Figma and Adobe XD. Concurrently, design system templates were developed to ensure consistency and efficiency throughout the design process, reinforcing a cohesive visual identity.&lt;/p&gt;
 &lt;figure&gt;
 	&lt;img src=&quot;/static/images/projects/mojeek/ip.jpg&quot; alt=&quot;inner page redesigns in adobe xd&quot; style=&quot;height: auto&quot; /&gt;
@@ -214,7 +173,7 @@ design solution.&lt;/p&gt;
 		Inner page redesigns in Adobe XD.
 	&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;h2&gt;Testing: Iterating for User Feedback&lt;/h2&gt;
+&lt;h2&gt;Iterating User Feedback&lt;/h2&gt;
 &lt;p&gt;The website redesign process also incorporated a limited release to a community of users, allowing for iterative testing and continuous feedback. This approach ensured that the redesign met real-world usage requirements and evolving user expectations.&lt;/p&gt;
 &lt;p&gt;Notably, new features were introduced, including the implementation of personal search engines, which enabled users to customize their search experiences based on their preferences. These additions aimed to deliver a more personalized and tailored search journey, differentiating Mojeek from its competitors.&lt;/p&gt;
 &lt;figure&gt;
@@ -223,7 +182,6 @@ design solution.&lt;/p&gt;
 		Mojeek community.
 	&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;h2&gt;Outcome&lt;/h2&gt;
 &lt;p&gt;As a result of the comprehensive redesign efforts, Mojeek experienced significant growth in its user base, with the user count more than doubling over the two-year period. This expansion reflected the success of the redesign in attracting and engaging users, who responded positively to the improved accessibility, enhanced usability, and the personalized search experience. &lt;a href=&quot;www.mojeek.com&quot;&gt;See the live website here&lt;/a&gt;.&lt;/p&gt;
 &lt;figure&gt;
 	&lt;img src=&quot;/static/images/projects/mojeek/am.png&quot; alt=&quot;mojeek about page&quot; style=&quot;height: auto&quot; /&gt;
@@ -245,15 +203,7 @@ design solution.&lt;/p&gt;
     <link href="/projects/genshare/"/>
     <updated>2023-11-07T00:00:00Z</updated>
     <id>/projects/genshare/</id>
-    <content type="html">&lt;p&gt;The project followed the first half of double diamond model &lt;em&gt;(Discover and define)&lt;/em&gt;. Emphasis was placed on the research and discovery phase, to provide a service.&lt;/p&gt;
-&lt;figure&gt;
-	&lt;img src=&quot;/static/images/projects/genshare/sd-1.png&quot; alt=&quot;genshare&quot; style=&quot;height: auto&quot; /&gt;
-	&lt;figcaptioN&gt;
-		GenShare - bringing generations together through shared
-		experiences
-	
-&lt;/figcaptioN&gt;&lt;/figure&gt;
-&lt;h2&gt;Process&lt;/h2&gt;
+    <content type="html">&lt;p&gt;&lt;strong&gt;Genshare was a UK service based in Loughborough. The main goal of the project was to improve the lives of elderly people following the Covid-19 pandemic.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;A range of different tools were used to frame the behaviours, pains, motivations and goals of users. This allowed us to identify the best opportunities to relieve these pains and add value to users.&lt;/p&gt;
 &lt;figure&gt;
 	&lt;img src=&quot;/static/images/projects/genshare/sd-pm.png&quot; alt=&quot;marion persona&quot; style=&quot;height: auto&quot; /&gt;
@@ -309,9 +259,7 @@ design solution.&lt;/p&gt;
 		facilitate and who would be impacted by the service
 	&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;h2&gt;Goals&lt;/h2&gt;
-&lt;p&gt;The main goal of the project was to improve the lives of elderly people following the Covid-19 pandemic. One of the biggest challenges was conducting research with no direct access to user. The data gathered related to primary data collection &lt;em&gt;(books, personal sources, journals, newspapers, websitess, government records).&lt;/em&gt;&lt;/p&gt;
-&lt;h2&gt;Outcome&lt;/h2&gt;
+&lt;p&gt;The main goal of the project was to improve the lives of elderly people following the Covid-19 pandemic. One of the biggest challenges was conducting research with no direct access to users. The data gathered related to primary data collection &lt;em&gt;(books, personal sources, journals, newspapers, websitess, government records).&lt;/em&gt;&lt;/p&gt;
 &lt;figure&gt;
 	&lt;img src=&quot;/static/images/projects/genshare/sd-oc.png&quot; alt=&quot;genshare outcome&quot; style=&quot;height: auto&quot; /&gt;
 	&lt;figcaption&gt;
@@ -326,10 +274,11 @@ design solution.&lt;/p&gt;
     <link href="/projects/foxgibbon/"/>
     <updated>2023-11-07T00:00:00Z</updated>
     <id>/projects/foxgibbon/</id>
-    <content type="html">&lt;p&gt;In the dynamic world of UX and UI design, staying updated with the latest trends, techniques, and best practices is crucial. Recognizing this need, I embarked on a creative journey and established FoxGibbon.com, a blog dedicated to sharing valuable UX and UI design tips and information. This article will delve into the process of creating the blog, which involved extensive research, prototyping, testing, leveraging analytics, and employing AI to enhance articles and receive valuable suggestions. Furthermore, I will outline how I crafted the logo and branding to establish a strong visual identity for FoxGIbbon.com.&lt;/p&gt;
-&lt;h2&gt;Research: Laying the Foundation&lt;/h2&gt;
+    <content type="html">&lt;p&gt;&lt;strong&gt;FoxGibbon is a carefully curated platform for design and creative inspiration featuring design news, psychology and ideas.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In the dynamic world of UX and UI design, staying updated with the latest trends, techniques, and best practices is crucial. Recognizing this need, I embarked on a creative journey and established FoxGibbon.com, a blog dedicated to sharing valuable UX and UI design tips and information. This article will delve into the process of creating the blog, which involved extensive research, prototyping, testing, leveraging analytics, and employing AI to enhance articles and receive valuable suggestions. Furthermore, I will outline how I crafted the logo and branding to establish a strong visual identity for FoxGIbbon.com.&lt;/p&gt;
+&lt;h2&gt;Laying the Foundation&lt;/h2&gt;
 &lt;p&gt;The first step in creating FoxGibbon.com was to conduct research. This involved studying the latest industry trends, analyzing popular design blogs, and understanding the target audience&#39;s needs and preferences. By identifying knowledge gaps and areas where I could add value, I set the direction for my blog.&lt;/p&gt;
-&lt;h2&gt;Logo and Branding: Establishing Visual Identity&lt;/h2&gt;
+&lt;h2&gt;Establishing Visual Identity&lt;/h2&gt;
 &lt;figure&gt;
 	&lt;img src=&quot;/static/images/projects/foxgibbon/ideation.jpg&quot; alt=&quot;foxGibbon website&quot; /&gt;
 	&lt;figcaption class=&quot;text-slate-500 m-2&quot;&gt;
@@ -341,13 +290,11 @@ design solution.&lt;/p&gt;
 	&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;Understanding the significance of visual identity in brand establishment, I undertook the task of designing a unique logo and branding. Through careful consideration of typography, color schemes, and graphic elements, I crafted a visually appealing logo that captured the essence of the blog&#39;s focus on UX and UI design. The branding was extended across various touchpoints, including the website, social media profiles, and promotional materials.&lt;/p&gt;
-&lt;h2&gt;Prototyping: Designing the User Experience&lt;/h2&gt;
+&lt;h2&gt;Designing the User Experience&lt;/h2&gt;
 &lt;p&gt;With a clear vision in mind, I began prototyping the blog&#39;s user experience. I focused on creating an intuitive and visually appealing interface, ensuring easy navigation and seamless accessibility of content. Employing wireframing and rapid prototyping techniques, I iteratively refined the design to optimize user engagement.&lt;/p&gt;
-&lt;h2&gt;Analytics and AI Integration: Enhancing Content and Engagement&lt;/h2&gt;
+&lt;h2&gt;Enhancing Content and Engagement&lt;/h2&gt;
 &lt;p&gt;To continuously improve the quality of articles and engage readers effectively, I integrated the use analytics and AI technologies. By analyzing user behavior, such as page views, time spent on articles, and click-through rates, I gained valuable insights into popular topics and reader preferences. Additionally, leveraging AI tools like ChatGPT, I enhanced articles by incorporating relevant suggestions
 and providing personalized recommendations to readers.&lt;/p&gt;
-&lt;h2&gt;Hotjar&lt;/h2&gt;
-&lt;h2&gt;Outcome&lt;/h2&gt;
 &lt;p&gt;Creating FoxGibbon.com was a rewarding journey, driven by a passion for UX and UI design. Through extensive research, prototyping, and testing, I crafted a user-centric blog that provides valuable insights to its readers. By integrating analytics and AI technologies, I continually enhance the quality of content and engage readers effectively. The logo and branding contribute to a strong visual identity, reinforcing the blog&#39;s credibility and attracting a loyal community of design enthusiasts. As FoxGIbbon.com continues to grow and evolve, it remains dedicated to sharing the latest UX and UI design trends and helping designers create exceptional user experiences. &lt;a href=&quot;www.foxgibon.com&quot;&gt;See the live website here&lt;/a&gt;.&lt;/p&gt;
 &lt;figure&gt;
 	&lt;img src=&quot;/static/images/projects/foxgibbon/web.png&quot; alt=&quot;FoxGibbon web&quot; style=&quot;height: auto&quot; /&gt;
@@ -363,7 +310,9 @@ and providing personalized recommendations to readers.&lt;/p&gt;
     <link href="/projects/cdm/"/>
     <updated>2023-11-07T00:00:00Z</updated>
     <id>/projects/cdm/</id>
-    <content type="html">&lt;p&gt;Initial discussions were made with clients to define what they were looking for in a logo. After this the brand, website and values were analysed to generate logo ideas that were relevant and provided the correct tone.&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;strong&gt;Coalition for Competitive Digital Markets aims to advance fairness and stronger openness in digital markets, allowing businesses of all sizes to compete on fair grounds.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;CDM hired me to assist with their rebranding and to help improve the UI of their website, aiming to enhance their visual appeal.&lt;/p&gt;
+&lt;p&gt;Initial discussions were made with clients to define what their values and motivations were.&lt;/p&gt;
 &lt;figure&gt;
 	&lt;img src=&quot;/static/images/projects/cdm/cdm-is.jpg&quot; alt=&quot;initial sketches&quot; /&gt;
 	&lt;figcaption&gt;
@@ -379,8 +328,7 @@ and providing personalized recommendations to readers.&lt;/p&gt;
 		Initial iterations of logos made in Adobe Illustrator
 	&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;h2&gt;Outcome&lt;/h2&gt;
-&lt;p&gt;Companies involved in the process were incredibly happy with the final outcome. only one iteration was required. &lt;a href=&quot;https://competitivedigitalmarkets.eu/&quot;&gt;View the Competitive Digital Markets site here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Companies involved in the process were incredibly happy with the final outcome. &lt;a href=&quot;https://competitivedigitalmarkets.eu/&quot;&gt;View the Competitive Digital Markets site here&lt;/a&gt;.&lt;/p&gt;
 &lt;figure&gt;
 	&lt;img src=&quot;/static/images/projects/cdm/cdm-oc.png&quot; alt=&quot;cdm final logo&quot; style=&quot;height: auto&quot; /&gt;
 	&lt;img src=&quot;/static/images/projects/cdm/cd-cp.jpg&quot; alt=&quot;cdm final logo&quot; style=&quot;height: auto&quot; /&gt;
@@ -396,22 +344,19 @@ and providing personalized recommendations to readers.&lt;/p&gt;
     <link href="/projects/armourslice/"/>
     <updated>2023-11-07T00:00:00Z</updated>
     <id>/projects/armourslice/</id>
-    <content type="html">&lt;p&gt;The design process followed the double diamond model, the biggest focus for this project was improving the usability and efficiency of the current armourslice cable stripping tool. I also needed to ensure the final product was feasible for mass manufacture.&lt;/p&gt;
-&lt;h2&gt;Initial concept sketches&lt;/h2&gt;
-&lt;p&gt;I created a range of concepts using a refined success criteria. The tool was required to fit into confined work spaces while remaining ergonomically sound. Through questionnaires, interviews and prototype testing I refined the idea to maximise usabilty.&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;strong&gt;C.K tools are at the forefront of producing high quality hand tools for trade professionals.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The focus for this project was improving the usability and efficiency of the current armourslice cable stripping tool, while ensuring the final product was feasible for production.&lt;/p&gt;
+&lt;p&gt;A range of concepts were created using a refined success criteria. The tool was required to fit into confined work spaces while remaining ergonomically sound. Through questionnaires, interviews and prototype testing I refined the idea to maximise usabilty.&lt;/p&gt;
 &lt;figure&gt;
-	&lt;img src=&quot;/static/images/projects/armourslice/as.jpg&quot; alt=&quot;sketches for ripple project&quot; /&gt;
+	&lt;img src=&quot;/static/images/projects/armourslice/as.jpg&quot; alt=&quot;sketches of Armourslice&quot; /&gt;
 	&lt;figcaption&gt;
-		Keyshot renders of final deliverable
+		Early concept sketches
 	&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;h2&gt;Goal&lt;/h2&gt;
-&lt;p&gt;The goal was to improve the function and efficiency of the C.K tools&#39; current line of armourslice SWA cable strippers.&lt;/p&gt;
-&lt;h2&gt;Outcome&lt;/h2&gt;
 &lt;p&gt;The research, specification and final concept were taken for development and manufacture by the C.K product development team.&lt;/p&gt;
 &lt;figure&gt;
-	&lt;img src=&quot;/static/images/projects/armourslice/as-1.jpg&quot; alt=&quot;ripple product mockup&quot; /&gt;
-	&lt;img src=&quot;/static/images/projects/armourslice/as-2.jpg&quot; alt=&quot;ripple 3d model&quot; /&gt;
+	&lt;img src=&quot;/static/images/projects/armourslice/as-1.jpg&quot; alt=&quot;Armourslice product mockup&quot; /&gt;
+	&lt;img src=&quot;/static/images/projects/armourslice/as-2.jpg&quot; alt=&quot;Armourslice 3d model&quot; /&gt;
 	&lt;figcaption&gt;
 		Keyshot renders of final deliverable
 	&lt;/figcaption&gt;
@@ -424,7 +369,8 @@ and providing personalized recommendations to readers.&lt;/p&gt;
     <link href="/projects/algopigm/"/>
     <updated>2023-11-07T00:00:00Z</updated>
     <id>/projects/algopigm/</id>
-    <content type="html">&lt;p&gt;The project was very developer focused. It involved me learning how the blockchain has become programmable with smart contracts, little pieces of automatically-executing code running on the blockchain. It also involved creating a hosted website where people could learn about the project and purchase the NFT&#39;s.&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;strong&gt;Algopigm was a UK start-up based in Worthing. It&#39;s an all-in-one platform that allows small businesses to trade and share resources with its own marketplace.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The project involved me creating a set of unique and fun NFT&#39;s as well as a hosted website where people could learn about the project and purchase them.&lt;/p&gt;
 &lt;figure&gt;
 	&lt;img src=&quot;/static/images/projects/algopigm/ap-e.png&quot; alt=&quot;algopigm code&quot; /&gt;
 	&lt;figcaption&gt;

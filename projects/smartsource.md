@@ -1,7 +1,8 @@
 ---
 title: Smartsource
+subtitle: Flawless waste management
 name: smartsource
-tldr: I spearheaded a comprehensive and meticulous process that spanned over two years.
+tldr: Establishing and transforming the Smartsource brand to tackle challanges faced by small businesses during Covid.
 time: 6 min
 image: /static/images/projects/smartsource/ss-o.jpg
 tags: ["post", "Ux", "UI"]
@@ -11,24 +12,24 @@ layout: layouts/post.njk
 author: Thomas Mott
 ---
 
-SmartSource was a solo project which followed the 4 D's design process. I conducted the research and defined all the contextual issues. I then conducted interviews, card sorting and bodystorming sessions with participants from SME's _(small, medium enterprises)_. Participants were also asked to create photo diaries of their business waste material over a month. This produced a wealth of rich qualitative data.
+**Smartsource is a UK start-up based in Bristol. It's an all-in-one platform that allows small businesses to trade and share resources with its own marketplace.**
 
-<figure>
+With Smartsource, you have a single app where you can easily market your extra resources, communicate with other companies, and even create wishlists for new materials. This project has already secured significant interest, and the sky is the limit for its potential.
+
+The concept, sitemap, wireframes and early design were shaped by research, interviews and first hand ethnographic research with participants from SME's _(small, medium enterprises)_. This produced a wealth of rich qualitative data.
+
+<!-- <figure>
 	<img
 		src="/static/images/projects/smartsource/ss-1.jpg"
 		alt="workshop visited for research"
-	/>
-	<img
-		src="/static/images/projects/smartsource/ss-ae.jpg"
-		alt="waste in skip"
 	/>
 	<figcaption>
 		Visiting small and medium enterprises to gain first hand
 		qualitative data
 	</figcaption>
-</figure>
+</figure> -->
 
-Collected data was compiled and synthesised into key usability problems. This information was supported by creating customer journey maps, storyboards and mapping out user journeys.
+Data was compiled and synthesised into key usability problems. This information was supported by creating customer journey maps, storyboards and mapping out user journeys.
 
 <figure>
 	<img
@@ -61,13 +62,11 @@ Collected data was compiled and synthesised into key usability problems. This in
 	</figcaption>
 </figure>
 
-## Goals
-
-As someone with experience in manufacturing industry and a passion for projects that help to support a green future, the main goal of the project, was to reduce the impact of manufacturing companies on national waste production.
+Once the idea was supported, rigorous website UX testing and analysis of communication and website structure was used to shape the service. Once we established this strong foundation, we proceeded to create a more robust brand and design that truly served their business goals.
 
 ## Outcome
 
-Companies involved in the process were incredibly happy with the final outcome and the prospects that the platform could offer them. Environmental, economic and social benefits were found to have been made clear through the branding and app onboarding, flow and features. <a href="https://gcza99.axshare.com">View the live prototype here</a>.
+Companies involved in the process were incredibly happy with the final outcome and the prospects that the platform could offer them. <a href="https://gcza99.axshare.com">View the live prototype here</a>.
 
 <figure>
 	<img
