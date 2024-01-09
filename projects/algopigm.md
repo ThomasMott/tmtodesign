@@ -1,8 +1,9 @@
 ---
 title: Algopigm
+subtitle: Algorithmically generated NFT's
 name: algopigm
 tldr: to do
-time: 6 min
+time: 4 min
 image: /static/images/projects/algopigm/ap.jpg
 tags: ["post", "Ux", "UI", "dev"]
 categories: ["Ux", "UI", "dev"]
@@ -11,7 +12,9 @@ layout: layouts/post.njk
 author: Thomas Mott
 ---
 
-The project was very developer focused. It involved me learning how the blockchain has become programmable with smart contracts, little pieces of automatically-executing code running on the blockchain. It also involved creating a hosted website where people could learn about the project and purchase the NFT's.
+**Algopigm was a UK start-up based in Worthing. It's an all-in-one platform that allows small businesses to trade and share resources with its own marketplace.**
+
+The project involved me creating a set of unique and fun NFT's as well as a hosted website where people could learn about the project and purchase them.
 
 <figure>
 	<img

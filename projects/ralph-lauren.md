@@ -1,5 +1,6 @@
 ---
 title: Ralph Lauren
+subtitle: Assessments to improve satisfaction
 name: ralph-lauren
 tldr: Assessment metrics for the Ralph Lauren website were conducted using expert review, satisfaction and performance assessments.
 time: 10 min
@@ -11,7 +12,9 @@ layout: layouts/post.njk
 author: Thomas Mott
 ---
 
-The design process followed the double diamond model. The first step was to conduct thematic, heuristic, satisfaction and performance related issues across the website. Issues were then catalogued to discover ways to make the site more intuitive and satisfying to navigate.
+**Ralph Lauren Corporation, a global leader of premium lifestyle products including apparel, accessories, home, fragrances, and hospitality.**
+
+We conducted thematic, heuristic, satisfaction and performance related issues across the Ralph Lauren website. Issues were then catalogued to discover ways to make the site more intuitive and satisfying to navigate.
 
 <figure>
 	<img
@@ -24,8 +27,6 @@ The design process followed the double diamond model. The first step was to cond
 		Satisfaction analysis
 	</figcaption>
 </figure>
-
-## Goals
 
 The main goal of the project, adding value to the Ralph Lauren website was particularly challenging. The company has a design team dedicated to improving sales and conversion rates. This meant that research and testing had to be highly user-focused to achieve a meaningful design outcome.
 
@@ -40,8 +41,6 @@ The main goal of the project, adding value to the Ralph Lauren website was parti
 		statistically significant results
 	</figcaption>
 </figure>
-
-## Outcome
 
 Testing showed that there was a statistically significant decrease in SUS scores between the original website (w1) (M= 82.1.6, SD= 9.674) to the redesign (w2) (M= 89.1 SD= 10.126), t (25) = 3.013, p < .05 (two tailed). The mean difference in SUS scores was 7.0 The eta squared statistic (0.275) indicated a large effect size. A power of .90 was achieved.
 

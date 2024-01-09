@@ -1,19 +1,25 @@
 ---
 title: Mojeek
+subtitle: Transforming perceptions of privacy
 name: mojeek
-tldr: I spearheaded a comprehensive and meticulous process that spanned over two years.
-time: 6 min
+tldr: A comprehensive and meticulous redesign to change the perception of the worlds first privacy focused search engines.
+time: 10 min
 image: /static/images/projects/mojeek/mj-1.jpg
 tags: ["post", "Ux", "UI", "dev"]
 categories: ["design", "Ux", "UI", "dev"]
 date: 2023-11-07
 layout: layouts/post.njk
 author: Thomas Mott
+website: www.mojeek.com
 ---
 
-As the lead of Mojeek's website redesign, I spearheaded a comprehensive process that spanned over two years. With a focus on accessibility and user-centered design, the redesign journey aimed to enhance the website's usability and deliver an exceptional user experience. As a team, we embarked on a journey that involved various stages, including accessibility and heuristic reviews, user interviews, SUS testing, guided observation, and more.
+**Mojeek is a UK start-up based in Brighton. They are responsible for the worlds first privacy based search engine.**
 
-## Research: Laying the Foundation
+As the lead of Mojeek's website redesign, I spearheaded a comprehensive process that spanned over two years. With an initial focus on accessibility and user-centered design, the redesign journey aimed to enhance the website's usability and deliver an exceptional user experience.
+
+As a team, we embarked on a journey that involved various stages, including accessibility and heuristic reviews, user interviews, SUS testing, guided observation, and more.
+
+## Laying the Foundation
 
 To gain valuable insights into user needs and preferences, we conducted user interviews, engaging directly with representative users to understand their motivations, goals, and pain points. These interviews formed the foundation for informed design decisions and helped shape the redesign strategy.
 
@@ -33,7 +39,7 @@ Throughout the two-year duration, findings from accessibility and heuristic revi
 	</figcaption>
 </figure>
 
-## Prototyping: Designing the User Experience
+## Designing the User Experience
 
 Prototypes and mock-ups were created iteratively, ensuring that design concepts were thoroughly explored and refined using Figma and Adobe XD. Concurrently, design system templates were developed to ensure consistency and efficiency throughout the design process, reinforcing a cohesive visual identity.
 
@@ -48,7 +54,7 @@ Prototypes and mock-ups were created iteratively, ensuring that design concepts 
 	</figcaption>
 </figure>
 
-## Testing: Iterating for User Feedback
+## Iterating User Feedback
 
 The website redesign process also incorporated a limited release to a community of users, allowing for iterative testing and continuous feedback. This approach ensured that the redesign met real-world usage requirements and evolving user expectations.
 
@@ -64,8 +70,6 @@ Notably, new features were introduced, including the implementation of personal 
 		Mojeek community.
 	</figcaption>
 </figure>
-
-## Outcome
 
 As a result of the comprehensive redesign efforts, Mojeek experienced significant growth in its user base, with the user count more than doubling over the two-year period. This expansion reflected the success of the redesign in attracting and engaging users, who responded positively to the improved accessibility, enhanced usability, and the personalized search experience. <a href="www.mojeek.com">See the live website here</a>.
 

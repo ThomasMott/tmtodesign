@@ -17,6 +17,7 @@ body {
 		img {
 			width: 100%;
 			margin-top: 48px;
+			border-radius: 16px;
 		}
 
 		@media (min-width: $breakpoint-sm) {
@@ -68,10 +69,11 @@ body {
 		}
 
 		.case {
-			max-width: 600px;
+			max-width: 640px;
 			margin-bottom: 64px;
 			position: relative;
 			background-color: var(--white_off);
+			border-radius: 8px;
 
 			h2,
 			h3,
@@ -93,6 +95,10 @@ body {
 					margin: 0 0 32px 0;
 					font-size: 13px;
 					line-height: 23px;
+				}
+
+				img {
+					width: 100%;
 				}
 
 				a {

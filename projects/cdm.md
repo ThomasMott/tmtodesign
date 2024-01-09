@@ -1,5 +1,6 @@
 ---
 title: CDM
+subtitle: Unlocking potential with rebrand
 name: cdm
 tldr: I spearheaded a comprehensive and meticulous process that spanned over two years.
 time: 6 min
@@ -9,9 +10,14 @@ categories: ["graphics"]
 date: 2023-11-07
 layout: layouts/post.njk
 author: Thomas Mott
+website: competitivedigitalmarkets.eu
 ---
 
-Initial discussions were made with clients to define what they were looking for in a logo. After this the brand, website and values were analysed to generate logo ideas that were relevant and provided the correct tone.
+**Coalition for Competitive Digital Markets aims to advance fairness and stronger openness in digital markets, allowing businesses of all sizes to compete on fair grounds.**
+
+CDM hired me to assist with their rebranding and to help improve the UI of their website, aiming to enhance their visual appeal.
+
+Initial discussions were made with clients to define what their values and motivations were.
 
 <figure>
 	<img
@@ -47,9 +53,8 @@ Initial discussions were made with clients to define what they were looking for 
 	</figcaption>
 </figure>
 
-## Outcome
 
-Companies involved in the process were incredibly happy with the final outcome. only one iteration was required. <a href="https://competitivedigitalmarkets.eu/">View the Competitive Digital Markets site here</a>.
+Companies involved in the process were incredibly happy with the final outcome. <a href="https://competitivedigitalmarkets.eu/">View the Competitive Digital Markets site here</a>.
 
 <figure>
 	<img
