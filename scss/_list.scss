@@ -4,8 +4,7 @@
 	gap: $spacing_four;
 	padding: $spacing_five;
 	margin: $spacing_five auto;
-	box-shadow: var(--black_dusty) 4px 4px 0px 0px;
-	border: 1px solid var(--black_dusty);
+	border: 1px solid var(--grey_light);
 	background: var(--white);
 	justify-content: center;
 	max-width: $breakpoint-sm;
@@ -49,23 +48,19 @@
 	}
 
 	div {
-		box-shadow: var(--black_dusty) 4px 4px 0px 0px;
-		border: 1px solid var(--black_dusty);
 		border-radius: 16px;
 		background: var(--white);
 		padding: $spacing_five;
 		transition: transform 400ms;
 
-		&:nth-of-type(odd) {
-			transform: rotate(1deg);
-		}
-
-		&:nth-of-type(even) {
-			transform: rotate(-1deg);
-		}
-
 		&:hover {
-			transform: rotate(0);
+			&:nth-of-type(odd) {
+				transform: rotate(1deg);
+			}
+
+			&:nth-of-type(even) {
+				transform: rotate(-1deg);
+			}
 		}
 	}
 
@@ -74,16 +69,14 @@
 		margin: $spacing_six $spacing_eight $spacing_nine $spacing_eight;
 
 		div {
-			&:nth-of-type(odd) {
-				transform: rotate(2deg);
-			}
-
-			&:nth-of-type(even) {
-				transform: rotate(-2deg);
-			}
-
 			&:hover {
-				transform: rotate(0);
+				&:nth-of-type(odd) {
+					transform: rotate(2deg);
+				}
+
+				&:nth-of-type(even) {
+					transform: rotate(-2deg);
+				}
 			}
 		}
 	}

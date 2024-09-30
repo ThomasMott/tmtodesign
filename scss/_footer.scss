@@ -43,12 +43,11 @@
 	justify-content: center;
 	width: 100%;
 	align-items: center;
-	border-bottom: 1px solid var(--black_dusty);
-	border-top: 1px solid var(--black_dusty);
 	background-color: var(--white);
 
 	.footers-inner {
 		padding: $spacing_seven $spacing_six;
+		border-bottom: 1px solid var(--grey_light);
 		justify-content: center;
 		width: 100%;
 		box-sizing: border-box;
@@ -82,7 +81,8 @@
 	}
 
 	.marquee div {
-		display: block;
+		display: flex;
+		align-items: center;
 		width: 200%;
 		height: 160px;
 		position: absolute;
@@ -91,11 +91,12 @@
 	}
 
 	.marquee span {
-		font-size: 120px;
+		font-size: 64px;
 		float: left;
 		width: 50%;
 		max-width: none;
 		color: var(--grey_light);
+		text-wrap: nowrap;
 	}
 
 	@keyframes marquee {

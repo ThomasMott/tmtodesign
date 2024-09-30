@@ -12,22 +12,24 @@ $breakpoint-lx: 2200px;
 :root {
 	--filter: none;
 
-	#default {
+	#light {
 		--black_dusty: #455385;
 		--black_jet: #5b6485;
 		--grey_med: #787088;
 		--grey_light: #d7d7d7;
 		--white_off: #faf9f8;
 		--white: #ffffff;
+		--nav: #faf9f8;
 	}
 
 	#dark {
 		--black_dusty: #e6e6e6;
 		--black_jet: #f6f0e2;
 		--grey_med: #bcbcbc;
-		--grey_light: #808080;
-		--white_off: #2a2a2a;
-		--white: #1a1a1a;
+		--grey_light: #737373;
+		--white_off: #0d0d0d;
+		--white: #171717;
+		--nav: #0d0d0d80;
 
 		--filter: brightness(10);
 	}
@@ -39,6 +41,7 @@ $breakpoint-lx: 2200px;
 		--grey_light: #e7e7e7;
 		--white_off: #fdf0f2;
 		--white: #f1fdfd;
+		--nav: #fdf0f2;
 	}
 
 	#sea {
@@ -48,6 +51,7 @@ $breakpoint-lx: 2200px;
 		--grey_light: #e7e7e7;
 		--white_off: #e7fbf9;
 		--white: #fcf6e2;
+		--nav: #e7fbf9;
 	}
 }
 
@@ -67,6 +71,7 @@ $box-shadow-four: 0 9px 18px var(--grey_light);
 $radius_sm: 4px;
 $radius_md: 8px;
 $radius_lg: 16px;
+$radius_xl: 28px;
 $radius_full: 50%;
 
 /*spacing variables*/

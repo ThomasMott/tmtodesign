@@ -116,14 +116,13 @@ body {
 				var(--grey_light) 1px,
 				transparent 0
 			);
-			background-size: 4rem 4rem;
+			background-size: 6rem 6rem;
 
 			&.bg {
-				background-color: var(--white);
-				background-image: none;
-
 				.grid {
-					margin-bottom: 0;
+					background-color: var(--white);
+					border-radius: $radius_xl;
+					margin-bottom: $spacing_seven;
 				}
 			}
 
@@ -175,7 +174,7 @@ body {
 			.grid {
 				margin: 0 auto;
 				max-width: 1280px;
-				padding: $spacing_ten $spacing_six;
+				padding: $spacing_eight $spacing_six;
 
 				.ul-s {
 					display: flex;
