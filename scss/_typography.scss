@@ -1,14 +1,26 @@
+@font-face {
+	font-family: Poppins;
+	src: url(../static/Poppins-Regular.ttf);
+}
+
+@font-face {
+	font-family: IBM;
+	src: url(../static/IBMPlexSans-Light.ttf);
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
+	font-family: "Poppins", serif;
 	color: var(--black_jet);
 	overflow-wrap: break-word;
 	font-weight: 800;
 
 	span {
+		font-family: "Poppins", serif;
 		background-color: var(--black_jet);
 		color: var(--white_off);
 	}
@@ -60,6 +72,7 @@ h3 {
 
 p,
 li {
+	font-family: "IBM", sans-serif;
 	font-size: 16px;
 	line-height: 28px;
 	color: var(--black_jet);
@@ -68,11 +81,11 @@ li {
 	max-width: 640px;
 
 	&.top {
-		font-family: "Montserrat", sans-serif;
+		font-family: "IBM", sans-serif;
 		font-size: 18px;
 
 		em {
-			font-family: "Montserrat", sans-serif;
+			font-family: "IBM", sans-serif;
 		}
 	}
 }

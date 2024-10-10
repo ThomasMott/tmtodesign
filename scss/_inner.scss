@@ -89,27 +89,6 @@ body {
 			}
 		}
 
-		.about-img {
-			max-width: $breakpoint-md;
-			margin: $spacing_eight auto;
-			transition-duration: 800ms;
-
-			img {
-				width: 100%;
-				border-radius: 16px;
-				filter: grayscale(1);
-			}
-
-			&:hover {
-				max-width: 100%;
-
-				img {
-					filter: none;
-					width: 100%;
-				}
-			}
-		}
-
 		section {
 			display: block;
 			background-image: radial-gradient(
@@ -202,5 +181,36 @@ body {
 				}
 			}
 		}
+	}
+}
+
+.about-img {
+	max-width: $breakpoint-md;
+	margin: $spacing_eight auto;
+	transition-duration: 800ms;
+
+	img {
+		width: 100%;
+		border-radius: 16px;
+		filter: grayscale(1);
+	}
+
+	&:hover {
+		max-width: 100%;
+
+		img {
+			filter: none;
+			width: 100%;
+		}
+	}
+}
+
+.logo {
+	width: 100%;
+	max-width: $breakpoint-xs;
+	padding-bottom: $spacing_four;
+
+	svg {
+		color: var(--black_jet);
 	}
 }

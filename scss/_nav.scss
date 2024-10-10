@@ -61,22 +61,22 @@
 			a {
 				text-decoration: none;
 
-				span:after {
-					content: "T";
+				span::before {
+					content: "M";
 				}
 
-				h3:after {
-					content: "M";
+				h3::before {
+					content: "T";
 				}
 			}
 
 			&:hover {
-				span:after {
-					content: "Thomas";
+				span::before {
+					content: "Mott.";
 				}
 
-				h3:after {
-					content: "Mott";
+				h3::before {
+					content: "Thomas";
 				}
 			}
 		}
