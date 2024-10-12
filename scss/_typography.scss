@@ -91,13 +91,14 @@ li {
 }
 
 a {
+	font-family: "IBM", sans-serif;
 	position: relative;
-	font-size: 17px;
+	font-size: 16px;
 	line-height: 28px;
 	color: var(--black_dusty);
 
 	&:hover {
-		color: var(--grey_med);
+		color: var(--primary);
 		text-decoration: underline;
 	}
 }

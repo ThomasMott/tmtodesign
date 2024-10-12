@@ -12,6 +12,10 @@
 		border: 1px solid var(--grey_light);
 		padding: $spacing_five;
 		background: var(--white);
+
+		strong {
+			color: var(--primary);
+		}
 	}
 
 	h2 {
