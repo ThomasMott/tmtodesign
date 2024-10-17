@@ -5,8 +5,8 @@ name: genshare
 tldr: The main goal of the project was to improve the lives of elderly people following the Covid-19 pandemic.
 time: 6 min
 image: /static/images/projects/genshare/sd-1.png
-tags: ["post", "Ux"]
-categories: ["design", "Ux"]
+tags: ["post", "UX"]
+categories: ["design", "UX"]
 date: 2023-11-07
 layout: layouts/post.njk
 author: Thomas Mott

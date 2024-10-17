@@ -5,8 +5,8 @@ name: algopigm
 tldr: to do
 time: 4 min
 image: /static/images/projects/algopigm/ap.jpg
-tags: ["post", "Ux", "UI", "dev"]
-categories: ["Ux", "UI", "dev"]
+tags: ["post", "UX", "UI", "dev"]
+categories: ["UX", "UI", "dev"]
 date: 2023-11-07
 layout: layouts/post.njk
 author: Thomas Mott

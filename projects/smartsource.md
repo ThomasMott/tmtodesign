@@ -5,8 +5,8 @@ name: smartsource
 tldr: Establishing and transforming the Smartsource brand to tackle challanges faced by small businesses during Covid.
 time: 6 min
 image: /static/images/projects/smartsource/ss-o.jpg
-tags: ["post", "Ux", "UI"]
-categories: ["design", "Ux", "UI"]
+tags: ["post", "UX", "UI"]
+categories: ["design", "UX", "UI"]
 date: 2023-11-07
 layout: layouts/post.njk
 author: Thomas Mott

@@ -5,8 +5,8 @@ name: foxgibbon
 tldr: I created and run FoxGibbon.com to show latest design news, informatino and tutorials.
 time: 6 min
 image: /static/images/projects/foxgibbon/fg.png
-tags: ["post", "Ux", "UI", "dev", "graphics"]
-categories: ["Ux", "UI", "dev", "graphics"]
+tags: ["post", "UX", "UI", "dev", "graphics"]
+categories: ["UX", "UI", "dev", "graphics"]
 date: 2023-11-07
 layout: layouts/post.njk
 author: Thomas Mott

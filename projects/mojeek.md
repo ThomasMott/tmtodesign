@@ -5,8 +5,8 @@ name: mojeek
 tldr: A comprehensive and meticulous redesign to change the perception of the worlds first privacy focused search engines.
 time: 10 min
 image: /static/images/projects/mojeek/mj-1.jpg
-tags: ["post", "Ux", "UI", "dev"]
-categories: ["design", "Ux", "UI", "dev"]
+tags: ["post", "UX", "UI", "dev"]
+categories: ["design", "UX", "UI", "dev"]
 date: 2023-11-07
 layout: layouts/post.njk
 author: Thomas Mott

@@ -5,8 +5,8 @@ name: petlet
 tldr: Conducting research to help Tails.com offer more services to it's to existing user base.
 time: 7 min
 image: /static/images/projects/petlet/pl.jpg
-tags: ["post", "Ux", "UI"]
-categories: ["design", "Ux", "UI"]
+tags: ["post", "UX", "UI"]
+categories: ["design", "UX", "UI"]
 date: 2023-11-07
 layout: layouts/post.njk
 author: Thomas Mott
@@ -40,7 +40,7 @@ As this was a project with a quick turnaround. We ran a week long design sprint 
 	</figcaption>
 </figure>
 
-Through research phases it was found that there was a gap to improve the lives of people who are caring for multiple pets. 
+Through research phases it was found that there was a gap to improve the lives of people who are caring for multiple pets.
 
 As pets are considered to be "part of the family", one of the biggest challenges was conducting research respectfully. The data gathered related to personal lifestyle choices of the owners regarding their pets. Whilst being respectful and open, we also had to gather enough detail to produce a purposeful
 design solution.
