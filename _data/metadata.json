@@ -1,11 +1,20 @@
 {
-	"title": "Thomas Mott Studio",
-	"description": "Thomas Mott Studio is a UX / UIdesign studio that specializes in creating beautiful and functional websites.",
+	"title": "Thomas Mott Studio - UX/UI Design & Development",
+	"description": "Professional design studio specializing in UX/UI design, web development, and digital product design. Creating intuitive and engaging digital experiences.",
 	"url": "https://thomasmott.studio",
 	"language": "en",
-	"image": "/static/images/favicon.ico",
 	"author": {
 		"name": "Thomas Mott",
 		"email": "thomasnathanielmott@gmail.com"
-	}
+	},
+	"social": {
+		"linkedin": "https://www.linkedin.com/in/thomas-mott-57348b150/"
+	},
+	"services": [
+		"UX Design",
+		"UI Design",
+		"Web Development",
+		"Product Design",
+		"Digital Design"
+	]
 }

@@ -16,6 +16,40 @@
 			gtag('js', new Date());
 			gtag('config', 'G-RD113EDS1R');
 		</script>
+		<!-- Structured Data -->
+		<script type="application/ld+json">
+		{
+		  "@context": "https://schema.org",
+		  "@type": "ProfessionalService",
+		  "name": "Thomas Mott Studio",
+		  "description": "Design and Development Studio",
+		  "image": "{{ metadata.url }}/static/images/og-image.jpg",
+		  "url": "{{ metadata.url }}",
+		  "@id": "{{ metadata.url }}",
+		  "address": {
+		    "@type": "PostalAddress",
+		    "addressCountry": "UK"
+		  },
+		  "priceRange": "££",
+		  "sameAs": [
+		    "https://www.linkedin.com/in/thomas-mott-57348b150/"
+		  ],
+		  "knowsAbout": [
+		    "UX Design",
+		    "UI Design",
+		    "Web Development",
+		    "Product Design",
+		    "Graphic Design"
+		  ]
+		}
+		</script>
+		<!-- Preload critical assets -->
+		<link rel="preload" href="/fonts/your-main-font.woff2" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="/css/all.css" as="style">
+		
+		<!-- Preconnect to external domains -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	</head>
 	<body id="dark" class="inner">
 		{% include "nav.njk" %}

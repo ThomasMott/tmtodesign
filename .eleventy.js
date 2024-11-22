@@ -2,6 +2,13 @@ const { DateTime } = require("luxon");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const dynamicCategories = require("eleventy-plugin-dynamic-categories");
 const htmlmin = require("html-minifier");
+let Image;
+try {
+	Image = require("@11ty/eleventy-img");
+} catch (e) {
+	console.warn("Image optimization disabled: @11ty/eleventy-img not found");
+	Image = null;
+}
 
 function shuffle(array) {
 	let currentIndex = array.length,
@@ -115,6 +122,26 @@ module.exports = function (eleventyConfig) {
 		}
 		return content;
 	});
+
+	// Only add image shortcode if the package is available
+	if (Image) {
+		eleventyConfig.addShortcode("image", async function(src, alt, sizes) {
+			let metadata = await Image(src, {
+				widths: [300, 600, 900, 1200],
+				formats: ["avif", "webp", "jpeg"],
+				outputDir: "./docs/img/"
+			});
+
+			let imageAttributes = {
+				alt,
+				sizes,
+				loading: "lazy",
+				decoding: "async",
+			};
+
+			return Image.generateHTML(metadata, imageAttributes);
+		});
+	}
 
 	return {
 		dir: {
