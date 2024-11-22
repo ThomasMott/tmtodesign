@@ -1,10 +1,7 @@
 const { DateTime } = require("luxon");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const dynamicCategories = require("eleventy-plugin-dynamic-categories");
-
-// const getSimilarCategories = function (categoriesA, categoriesB) {
-// 	return categoriesA.filter(Set.prototype.has, new Set(categoriesB)).length;
-// };
+const htmlmin = require("html-minifier");
 
 function shuffle(array) {
 	let currentIndex = array.length,
@@ -87,9 +84,44 @@ module.exports = function (eleventyConfig) {
 		return tagsList;
 	});
 
+	// Add RSS feed
+	eleventyConfig.addPlugin(pluginRss);
+
+	// Add SEO-friendly date formatting
+	eleventyConfig.addFilter("dateToISO", date => {
+		return date.toISOString();
+	});
+
+	// Add proper slugify for URLs
+	eleventyConfig.addFilter("slugify", str => {
+		return str
+			.toLowerCase()
+			.replace(/[^a-z0-9]+/g, "-")
+			.replace(/(^-|-$)+/g, "");
+	});
+
+	// Copy static files
+	eleventyConfig.addPassthroughCopy("img");
+	eleventyConfig.addPassthroughCopy("robots.txt");
+
+	// Minify HTML
+	eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
+		if(outputPath && outputPath.endsWith(".html")) {
+			return htmlmin.minify(content, {
+				useShortDoctype: true,
+				removeComments: true,
+				collapseWhitespace: true
+			});
+		}
+		return content;
+	});
+
 	return {
 		dir: {
+			input: ".",
 			output: "docs",
-		},
+			includes: "_includes",
+			data: "_data"
+		}
 	};
 };

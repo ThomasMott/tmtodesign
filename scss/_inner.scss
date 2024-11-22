@@ -1,3 +1,5 @@
+@use 'variables' as *;
+
 body {
 	&.inner {
 		background-color: var(--white_off);

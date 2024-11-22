@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		{% include "meta.njk" %}
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="keywords" content="HTML,CSS,XML,JavaScript">
 		<meta name="author" content="Thomas Mott">
 		<title>{{ title }}</title>
 		<meta name="description" content="{{ description }}">
-		<link rel="stylesheet" href="/css/all.css">
+		<link rel="stylesheet" href="{{ '/css/all.css' | url }}">
 		<link rel="icon" href="/static/images/favicon.ico">
 		<script>
 			window.dataLayer = window.dataLayer || [];
@@ -23,6 +24,6 @@
 		</main>
 		{% include "footer.njk" %}
 	</body>
-	<script src="/js/darkmode.js"></script>
+	<script src="{{ '/js/darkmode.js' | url }}"></script>
 	<script src='/js/{{ js }}.js'></script>
 </html>

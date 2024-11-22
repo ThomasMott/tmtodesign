@@ -1,3 +1,5 @@
+@use 'variables' as *;
+
 .grid {
 	.blog-card {
 		@media (min-width: $breakpoint-md) {

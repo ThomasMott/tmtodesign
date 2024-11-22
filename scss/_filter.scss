@@ -1,3 +1,5 @@
+@use 'variables' as *;
+
 .category-title {
 	margin: $spacing_six auto 0 auto;
 	width: fit-content;
