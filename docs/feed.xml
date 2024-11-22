@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Your Site Title</title>
+  <subtitle>Your Site Description</subtitle>
+  <link href="https://yoursite.com/feed.xml" rel="self"/>
+  <link href="https://yoursite.com/"/>
+  <updated>2024-11-22T18:31:38Z</updated>
+  <id>https://yoursite.com/</id>
+  <author>
+    <name>Your Name</name>
+    <email>your@email.com</email>
+  </author>
+</feed>

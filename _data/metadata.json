@@ -1,9 +1,11 @@
 {
-	"feed": {
-		"subtitle": "FoxGibbon is your source for design news & tutorials. Whether professional or enthusiast, it is a place to find information, source inspiration & seek help.",
-		"filename": "feed.xml",
-		"path": "/feed/feed.xml",
-		"url": "https://foxgibbon.com/feed/feed.xml",
-		"id": "https://foxgibbon.com/"
+	"title": "Thomas Mott Studio",
+	"description": "Thomas Mott Studio is a UX / UIdesign studio that specializes in creating beautiful and functional websites.",
+	"url": "https://thomasmott.studio",
+	"language": "en",
+	"image": "/static/images/favicon.ico",
+	"author": {
+		"name": "Thomas Mott",
+		"email": "thomasnathanielmott@gmail.com"
 	}
 }

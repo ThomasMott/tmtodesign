@@ -1,4 +1,4 @@
-// {% include "pagination.njk" %}
+@use 'variables' as *;
 
 .hide {
 	display: none;
