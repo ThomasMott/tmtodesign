@@ -16,33 +16,42 @@ Once everything is added run Eleventy (more below on that) and your post will be
 
 clone repo:
 
-```
+```bash
 git clone https://github.com/ThomasMott/fg.git
 ```
 
 cd into root folder and install dependencies:
 
-```
+```bash
 npm install
 ```
 
-## Eleventy
+## Development
 
 This site is powered by the [Eleventy static site generator](https://www.11ty.dev/)
 
-Installed by
+To start development with live reloading of both Eleventy and Sass, run:
 
-```
-npx @11ty/eleventy
-```
-
-To run, cd into root folder and run:
-
-```
-npx @11ty/eleventy --serve
+```bash
+npm run dev
 ```
 
-This will automatically watch, copy and compile css, js and markdown folders in root into \_site when files are changed
+This will:
+- Start Eleventy with live reload
+- Watch and compile Sass files
+- Automatically rebuild when files change
+
+## Sass Compilation
+
+If you only need to compile or watch Sass files:
+
+```bash
+# One-time compilation
+npm run scss
+
+# Watch for changes
+npm run watch:scss
+```
 
 ## Gulp Css
 
@@ -50,7 +59,7 @@ To gulp the scss into a clean css file follow the steps below:
 
 cd into root folder and run:
 
-```
+```bash
 gulp
 ```
 
