@@ -55,9 +55,16 @@ body {
 			}
 
 			.secondary {
-				display: flex;
 				align-items: center;
 				gap: $spacing_seven;
+
+				@media (min-width: $breakpoint-md) {
+					display: flex;
+
+					.more {
+						transform: rotate(90deg) translateX(30%) translateY(80%);
+					}
+				}
 
 				.more {
 					display: block;
@@ -66,14 +73,11 @@ body {
 					border-radius: 64px;
 					width: fit-content;
 					height: fit-content;
-					transform: rotate(90deg) translateX(30%) translateY(80%);
 					transition-duration: 400ms;
 					text-decoration: none;
 	
 					&:hover {
 						text-decoration: none;
-						transform: rotate(90deg) translateX(30%) translateY(80%)
-							scale(1.08);
 					}
 				}
 			}
