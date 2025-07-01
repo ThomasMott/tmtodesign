@@ -104,34 +104,3 @@ a {
 		text-decoration: underline;
 	}
 }
-
-.intro {
-	h1 {
-		font-size: 60px;
-		line-height: 68px;
-		padding: 0;
-		margin: 0;
-		max-width: 420px;
-	}
-
-	h2 {
-		max-width: 420px;
-		font-size: 88px;
-		line-height: 96px;
-		padding: 0;
-		margin: 0;
-		margin-bottom: $spacing_six;
-	}
-
-	@media (min-width: $breakpoint-sm) {
-		h1 {
-			font-size: 100px;
-			line-height: 104px;
-		}
-
-		h2 {
-			font-size: 148px;
-			line-height: 154px;
-		}
-	}
-}
