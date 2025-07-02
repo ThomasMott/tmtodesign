@@ -6,22 +6,21 @@
 	gap: $spacing_four;
 	padding: $spacing_five;
 	margin: $spacing_five auto;
-	border: 1px solid var(--grey_light);
-	background: var(--white);
+	background: var(--black_jet);
 	justify-content: center;
 	max-width: $breakpoint-sm;
-	border-radius: 16px;
+	border-radius: 40px;
 
 	li {
-		padding: $spacing_two $spacing_three;
-		border: 1px dashed var(--black_dusty);
+		padding: $spacing_one $spacing_four;
+		border: 1px solid var(--white);
+		color: var(--white) !important;
 		margin: 0 !important;
 		border-radius: 64px;
 
 		&.imp {
-			background: var(--black_jet);
-			color: var(--white_off);
-			border: 1px solid var(--black_jet);
+			background: var(--white);
+			color: var(--black_jet) !important;
 		}
 	}
 }

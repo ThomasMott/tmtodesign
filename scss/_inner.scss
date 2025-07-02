@@ -28,11 +28,11 @@ body {
 					margin-top: $spacing_six;
 
 					li {
+						display: block;
 						padding: $spacing_one $spacing_four;
 						background: var(--black_jet);
 						border-radius: 64px;
 						color: var(--white_off);
-						opacity: 0.7;
 						margin: 0;
 					}
 				}
@@ -94,7 +94,6 @@ body {
 			&.bg {
 				.grid {
 					background-color: var(--white);
-					border-radius: $radius_xl;
 					margin-bottom: $spacing_seven;
 				}
 			}
@@ -119,7 +118,6 @@ body {
 			.sec-title {
 				color: var(--grey_med);
 				font-weight: 600;
-				font-size: 40px;
 				line-height: 64px;
 			}
 

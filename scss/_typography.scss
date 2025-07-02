@@ -33,9 +33,9 @@ h6 {
 }
 
 h1 {
-	font-size: 40px;
-	line-height: 48px;
-	margin: $spacing_six 0 $spacing_four 0;
+	font-size: 36px;
+	line-height: 44px;
+	margin: $spacing_four 0;
 	letter-spacing: 0.01em;
 	max-width: $breakpoint-sm;
 
@@ -45,30 +45,30 @@ h1 {
 }
 
 h2 {
-	font-size: 40px;
-	line-height: 48px;
-	margin: $spacing_five 0 $spacing_three 0;
-	letter-spacing: 0.01em;
-}
-
-h3 {
 	font-size: 32px;
 	line-height: 40px;
-	margin: $spacing_four 0 $spacing_two 0;
+	margin: $spacing_three 0;
 	letter-spacing: 0.01em;
 }
 
 h3 {
+	font-size: 28px;
+	line-height: 36px;
+	margin: $spacing_three 0;
+	letter-spacing: 0.01em;
+}
+
+h4 {
 	font-size: 24px;
 	line-height: 32px;
-	margin: $spacing_three 0 $spacing_one 0;
+	margin: $spacing_three 0;
 	letter-spacing: 0.01em;
 }
 
 @media (min-width: $breakpoint-sm) {
 	h1 {
-		font-size: 64px;
-		line-height: 76px;
+		font-size: 48px;
+		line-height: 64px;
 	}
 }
 

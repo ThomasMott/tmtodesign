@@ -2,7 +2,7 @@
 title: Smartsource
 subtitle: Flawless waste management
 name: smartsource
-tldr: Establishing and transforming the Smartsource brand to tackle challanges faced by small businesses during Covid.
+tldr: Establishing and transforming the Smartsource brand to tackle challenges faced by small businesses during Covid.
 time: 6 min
 image: /static/images/projects/smartsource/ss-o.jpg
 tags: ["post", "UX", "UI"]
