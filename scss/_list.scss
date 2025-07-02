@@ -4,24 +4,16 @@
 	display: flex;
 	flex-wrap: wrap;
 	gap: $spacing_four;
-	padding: $spacing_five;
-	margin: $spacing_five auto;
-	background: var(--black_jet);
+	margin: $spacing_eight auto;
 	justify-content: center;
 	max-width: $breakpoint-sm;
-	border-radius: 40px;
 
 	li {
 		padding: $spacing_one $spacing_four;
-		border: 1px solid var(--white);
+		background: var(--black_jet);
 		color: var(--white) !important;
 		margin: 0 !important;
 		border-radius: 64px;
-
-		&.imp {
-			background: var(--white);
-			color: var(--black_jet) !important;
-		}
 	}
 }
 

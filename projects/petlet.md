@@ -2,7 +2,7 @@
 title: Petlet
 subtitle: Adding value to Tails.com
 name: petlet
-tldr: Conducting research to help Tails.com offer more services to it's to existing user base.
+tldr: Conducting research to help Tails.com offer more services to it's existing user base.
 time: 7 min
 image: /static/images/projects/petlet/pl.jpg
 tags: ["post", "UX", "UI"]
