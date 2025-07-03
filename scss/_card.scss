@@ -1,6 +1,26 @@
 @use 'variables' as *;
 
 .grid {
+	&.logo-card {
+		display: grid;
+		gap: $spacing_four;
+
+		@media (min-width: $breakpoint-sm) {
+			grid-template-columns: repeat(6, 1fr);
+		}
+
+		.logo-img {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 120px;
+			
+			img {
+				filter: brightness(0) invert(1);				max-width: 100px;
+			}
+		}
+	}
+
 	.blog-card {
 		@media (min-width: $breakpoint-md) {
 			grid-template-columns: repeat(3, 1fr);

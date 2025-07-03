@@ -69,49 +69,6 @@
 	}
 }
 
-.footers-marquee {
-	.marquee {
-		display: none;
-		height: 160px;
-		overflow: hidden;
-		position: relative;
-	}
-
-	@media (min-width: $breakpoint-md) {
-		.marquee {
-			display: block;
-		}
-	}
-
-	.marquee div {
-		display: flex;
-		align-items: center;
-		width: 200%;
-		height: 160px;
-		position: absolute;
-		overflow: hidden;
-		animation: marquee 5s linear infinite;
-	}
-
-	.marquee span {
-		font-size: 64px;
-		float: left;
-		width: 50%;
-		max-width: none;
-		color: var(--grey_light);
-		text-wrap: nowrap;
-	}
-
-	@keyframes marquee {
-		0% {
-			left: 0;
-		}
-		100% {
-			left: -100%;
-		}
-	}
-}
-
 .footers-top {
 	display: flex;
 	background-color: var(--white);
