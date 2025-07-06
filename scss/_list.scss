@@ -27,7 +27,7 @@
 
 .list-grid-title {
 	text-align: center;
-	margin: auto;
+	margin: 0 auto $spacing_seven auto;
 }
 
 .list-grid {
@@ -41,9 +41,9 @@
 	}
 
 	div {
-		border-radius: 16px;
+		border-radius: 40px;
 		background: var(--white);
-		padding: $spacing_five;
+		padding: $spacing_seven;
 		transition: transform 400ms;
 
 		&:hover {

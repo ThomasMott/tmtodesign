@@ -28,10 +28,14 @@
 	}
 
 	.footers-theme-item {
-		padding: 0 $spacing_five;
+		padding: $spacing_one $spacing_four;
 		border: 1px solid var(--black_dusty);
 		border-radius: 64px;
 		transition: 400ms;
+
+		p {
+			margin: 0;
+		}
 
 		&:hover {
 			cursor: pointer;

@@ -21,6 +21,7 @@ $breakpoint-lx: 2200px;
 		--white_off: #f5f5f7;
 		--white: #ffffff;
 		--nav: #faf9f8;
+		--filter: brightness(0);
 	}
 
 	#dark {
@@ -32,8 +33,7 @@ $breakpoint-lx: 2200px;
 		--white: #171717;
 		--primary: #3acabb;
 		--nav: #0d0d0d80;
-
-		--filter: brightness(10);
+		--filter: brightness(0) invert(1);
 	}
 
 	#candy {

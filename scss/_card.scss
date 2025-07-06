@@ -16,7 +16,13 @@
 			height: 120px;
 			
 			img {
-				filter: brightness(0) invert(1);				max-width: 100px;
+				filter: var(--filter);				
+				max-width: 100px;
+				opacity: 0.8;
+
+				&:hover {
+					opacity: 1;
+				}
 			}
 		}
 	}
@@ -33,12 +39,12 @@
 			gap: $spacing_two;
 
 			li {
-				padding: $spacing_one $spacing_two;
+				padding: $spacing_two $spacing_three;
 				border-radius: 40px;
 				line-height: 11px;
 				font-size: 11px;
-				color: var(--black_jet);
-				border: 1px dashed var(--black_jet);
+				background: var(--black_jet);
+				color: var(--white);
 				text-transform: capitalize;
 			}
 		}
