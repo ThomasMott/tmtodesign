@@ -1,4 +1,4 @@
-@use 'variables' as *;
+@use "variables" as *;
 
 .tldr-about {
 	position: relative;
@@ -36,8 +36,8 @@
 .tldr-text {
 	font-size: 24px;
 	line-height: 40px;
-	text-align: center;
 	margin: auto;
+	padding-top: $spacing_six;
 	max-width: $breakpoint-sm;
 }
 

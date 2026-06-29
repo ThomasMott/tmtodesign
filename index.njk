@@ -2,52 +2,50 @@
 title: Thomas Mott | UX lead.
 description: The visionary design studio which creates flawless solutions to solve challenges like no other.
 layout: layouts/base.njk
+js: index
 pagination:
   data: collections.post
-  size: 3
+  size: 4
   alias: posts
   reverse: true
 ---
 <div id="background" class="background"></div>
-<section class="home">
+<section class="home main" data-parallax="0.5">
 	<div class="grid">
 		<div class="intro">
 			<div class="secondary">
-					<h1>A strategic thinker and UX designer. Using user research to guide brands toward better solutions.</h1>
-					<a class="more" href="/#about">Read more &#x276F;</a>
+					<h1>Strategic UX lead.<br>Guiding teams from<br> <span>concept</span> to <span class="m">[</span>code<span class="m">]</span>.</h1>
+					<a class="more" href="/#about"><div class="circular-text">
+					<svg viewBox="0 0 100 100" width="140" height="140">
+						<defs><path id="circlePath" d="M 50, 50 m -40, 0 a 40, 40 0 1, 1 80, 0 a 40, 40 0 1, 1 -80, 0" /></defs>
+						<text>
+						<textPath href="#circlePath">
+							LEARN MORE • LEARN MORE •
+						</textPath>
+						</text>
+					</svg>
+					</div></a>
 			</div>
-			<ul>
-				<li>wireframing</li>
-				<li>strategy</li>
-				<li>ux design</li>
-				<li>user research</li>
-				<li>ux writing</li>
-				<li>ui design</li>
-				<li>accessibility</li>
-				<li>sustainability</li>
-				<li>development</li>
-				<li>analytics</li>
-				<li>illustration</li>
-			</ul>
 		</div>
 	</div>
 </section>
 <section class="bg">
 	<div class="grid" id="about">
-		<div class="about-img">
-			<img src="./static/tom-headshot.jpg" />
-		</div>
-		<ul class="list-blocks">
-			<li>8+ years design experience</li>
-			<li>Dozens of projects</li>
-		</ul>
-		<p class="tldr-text">
-			Based in Bristol, working with companies worldwide to turn user frustration into business growth.<br /><br />I have experience driving design in start-ups and scale-ups. My strength has always been in multidisciplinary roles. I can design the solution and build it too.	
+		<h3 class="center">wireframing <span class="m">&middot;</span> ux design <span class="m">&middot;</span> user research <span class="m">&middot;</span> ux writing <span class="m">&middot;</span> ui design <span class="m">&middot;</span> accessibility <span class="m">&middot;</span> sustainability <span class="m">&middot;</span> development <span class="m">&middot;</span> analytics <span class="m">&middot;</span> illustration</h3>
+		<p class="tldr-text center">
+			Based in North Wales, working with companies worldwide to turn user frustration into business growth.
 		</p>
-	</section>
+	</div>
+</section>
+<section class="bg">
+	<div class="grid">
+		<div class="img-ctn"><img class="invert big" src="./static/images/years.png" /></div>
+		<h1 class="center">8+ years design experience</h1>
+	</div>
+</section>
 </div>
-<section>
-	<div class="grid logo-card">
+<section class="logo-slider">
+	<div class="logo-track">
 		<div class="logo-img">
 			<img src="./static/images/logos/antillion.png" />
 		</div>
@@ -66,7 +64,32 @@ pagination:
 		<div class="logo-img">
 			<img src="./static/images/logos/mencap.png" />
 		</div>
-	</section>
-</div>
+		<div class="logo-img">
+			<img src="./static/images/logos/nas.png" />
+		</div>
+		<div class="logo-img">
+			<img src="./static/images/logos/antillion.png" />
+		</div>
+		<div class="logo-img">
+			<img src="./static/images/logos/thrive.png" />
+		</div>
+		<div class="logo-img">
+			<img src="./static/images/logos/tails.png" />
+		</div>
+		<div class="logo-img">
+			<img src="./static/images/logos/mojeek.png" />
+		</div>
+		<div class="logo-img">
+			<img src="./static/images/logos/spicy.png" />
+		</div>
+		<div class="logo-img">
+			<img src="./static/images/logos/mencap.png" />
+		</div>
+		<div class="logo-img">
+			<img src="./static/images/logos/nas.png" />
+		</div>
+	</div>
+</section>
 {% include "available.njk" %}
 {% include "posts.njk" %}
+{% include "art.njk" %}
