@@ -1,13 +1,18 @@
-@use 'variables' as *;
+@use "variables" as *;
 
 @font-face {
-	font-family: Poppins;
-	src: url(../static/Poppins-Regular.ttf);
+	font-family: Unbounded;
+	src: url(../static/Questrial-Regular.ttf);
 }
 
 @font-face {
 	font-family: IBM;
 	src: url(../static/IBMPlexSans-Light.ttf);
+}
+
+.center {
+	text-align: center;
+	margin: auto;
 }
 
 h1,
@@ -16,15 +21,27 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: "Poppins", serif;
+	font-family: "Unbounded", serif;
 	color: var(--black_jet);
 	overflow-wrap: break-word;
 	font-weight: 800;
 
 	span {
-		font-family: "Poppins", serif;
-		background-color: var(--black_jet);
-		color: var(--white_off);
+		font-family: "Unbounded", serif;
+		text-decoration: underline;
+		text-decoration-style: wavy;
+		text-decoration-color: var(--c);
+
+		&.y {
+			text-decoration: underline;
+			text-decoration-style: solid;
+			text-decoration-color: var(--c);
+		}
+
+		&.m {
+			color: var(--c);
+			text-decoration: none;
+		}
 	}
 
 	a {
@@ -36,7 +53,7 @@ h1 {
 	font-size: 36px;
 	line-height: 44px;
 	margin: $spacing_four 0;
-	letter-spacing: 0.01em;
+	letter-spacing: 0.1rem;
 	max-width: $breakpoint-sm;
 
 	&.shadow {
@@ -67,8 +84,8 @@ h4 {
 
 @media (min-width: $breakpoint-sm) {
 	h1 {
-		font-size: 48px;
-		line-height: 64px;
+		font-size: 64px;
+		line-height: 80px;
 	}
 }
 

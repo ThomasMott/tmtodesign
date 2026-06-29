@@ -16,12 +16,12 @@ html {
 
 .bg-dot {
 	position: absolute;
-	height: 8px;
-	width: 8px;
-	border-radius: 64px;
+	height: 2px;
+	width: 2px;
+	border-radius: 2px;
 	background-color: var(--grey_med);
-	opacity: 0.2;
-	z-index: 0;
+	opacity: 1;
+	z-index: 10;
 }
 
 main {

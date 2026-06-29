@@ -1,0 +1,12 @@
+<section>
+	<div class="grid">
+		<h2>Illustration</h2>
+		<div class="row art-card">
+		{% for post in collections.art %}
+			<div class="card-art">
+				<img src="{{ post.data.image }}">
+			</div>
+		{% endfor %}
+		</div>
+	</div>
+</section>

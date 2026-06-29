@@ -1,4 +1,4 @@
-@use 'variables' as *;
+@use "variables" as *;
 
 .list-blocks {
 	display: flex;
@@ -7,14 +7,6 @@
 	margin: $spacing_eight auto;
 	justify-content: center;
 	max-width: $breakpoint-sm;
-
-	li {
-		padding: $spacing_one $spacing_four;
-		background: var(--black_jet);
-		color: var(--white) !important;
-		margin: 0 !important;
-		border-radius: 64px;
-	}
 }
 
 .list {
@@ -41,10 +33,21 @@
 	}
 
 	div {
-		border-radius: 40px;
-		background: var(--white);
+		background-image: url("/static/images/card.jpg");
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
 		padding: $spacing_seven;
+		border-radius: 2px;
 		transition: transform 400ms;
+
+		h3 {
+			color: var(--white);
+		}
+
+		p {
+			color: var(--white-off) !important;
+		}
 
 		&:hover {
 			&:nth-of-type(odd) {
